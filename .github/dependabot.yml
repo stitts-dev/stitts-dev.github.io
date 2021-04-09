@@ -8,8 +8,9 @@ updates:
   schedule:
     interval: "daily"
   labels:
-  - "dependencies"
-  - "automerge"
+  - "CI/CD"
+  commit-message:
+    prefix: ci
 
 # Update the Github Action  versions
 - package-ecosystem: "github-actions"
@@ -17,5 +18,6 @@ updates:
   schedule:
     interval: "daily"
   labels:
-  - "dependencies"
-  - "automerge"
+  - "CI/CD"
+  commit-message:
+    prefix: ci
