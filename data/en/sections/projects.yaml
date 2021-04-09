@@ -33,13 +33,13 @@ projects:
   role: Developer
   timeline: "April 2021 - Present"
   repo: https://github.com/Stitts5401/stitts5401.github.io
-  summary: Personal Portfolio with automated CI from Hugo to gitHub using GitHub Actions
+  summary: Personal Portfolio from Hugo using toha theme. GitHub Actions is used for CI/cD.
   tags: ["Academic", "Professionalism"]
 
-- name: Hugo-Site github Pages
-  logo: /images/sections/projects/hugosite.png
-  role: Developer
-  timeline: "April 2021 - Present"
-  repo: https://github.com/Stitts5401/Hugo-Site
-  summary: Hugo + Toha Theme using gitHub Actions workflow for automated deployments for Personal Resume Website.
-  tags: ["Academic", "Hobby"]
+#- name: Hugo-Site github Pages
+#  logo: /images/sections/projects/hugosite.png
+#  role: Developer
+#  timeline: "April 2021 - Present"
+#  repo: https://github.com/Stitts5401/Hugo-Site
+#  summary: Hugo + Toha Theme using gitHub Actions workflow for automated deployments for Personal Resume Website.
+#  tags: ["Academic", "Hobby"]
