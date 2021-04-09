@@ -1,0 +1,45 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "All"
+- name: Academic
+  filter: "Academic"
+- name: Hobby
+  filter: "Hobby"
+
+# your projects
+projects:
+- name: Spotify UI and API Automation Framework
+  logo: /images/sections/projects/spotify.png
+  role: Developer
+  timeline: "March 2021 - Present"
+  repo: https://github.com/Stitts5401/spotifyScripts # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Java automation framework using Cucumber-JUnit with Selenium Webdriver and Maven for dependency management
+  tags: ["Academic", "Hobby", "Automation"]
+
+- name: Personal Resume Website
+  logo: /images/sections/projects/resume.png
+  role: Developer
+  timeline: "April 2021 - Present"
+  repo: https://github.com/Stitts5401/stitts5401.github.io
+  summary: Personal Portfolio with automated CI from Hugo to gitHub using GitHub Actions
+  tags: ["Academic", "Professionalism"]
+
+- name: Hugo-Site github Pages
+  logo: /images/sections/projects/hugosite.png
+  role: Developer
+  timeline: "April 2021 - Present"
+  repo: https://github.com/Stitts5401/Hugo-Site
+  summary: Hugo + Toha Theme using gitHub Actions workflow for automated deployments for Personal Resume Website.
+  tags: ["Academic", "Hobby"]

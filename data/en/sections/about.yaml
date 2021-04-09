@@ -1,0 +1,67 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Software Developement Engineer in Test
+# your company information
+#company:
+#  name: Example Co.
+#  url: "https://www.example.com"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/resume.pdf"
+
+# a summary about you
+summary: "I am a passionate SDET looking for my first team. My main Language is Java. I've designed and developed many DD, BD, Hybrid Framework automation test scripts for Front End and Backend projects. I am  experienced with Waterfall, Agile, and Agile scrum methodologies. Teamwork and Communication are my top priorities. I'm incredibly excited to share my knowledge and expierience. Aswell as, learn from others in order to solve new and exciting problems.
+I have an aptitude for learning and adapting to new projects and teams. I'm a hard worker with a very positive outlook and a great personality!"
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "admin@jadenstittsworth-resume.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/Stitts5401"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "#"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: Leadership
+  percentage: 85
+  color: blue
+- name: Team Work
+  percentage: 100
+  color: yellow
+- name: Communication
+  percentage: 100
+  color: pink
+- name: Hard Working
+  percentage: 100
+  color: green
+- name: Fast Learner
+  percentage: 90
+  color: sky
+- name: Problem Solving
+  percentage: 95
+  color: orange
+# you can also provide color code instead of pre-defined color name
+# - name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
+# - name: Example 2
+#   percentage: 65
+#   color: "#8b8383"

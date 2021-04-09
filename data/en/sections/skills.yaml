@@ -1,0 +1,85 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+
+
+- name: Java
+  logo: /images/sections/skills/java.png
+  summary: "Know high-level Java programming. Follow all best practices for clean and concise code. I've used this for problem solving as well as writing many Automation testing Frameworks. As well as, many handy utility packages."
+  url: "https://www.java.com/en/"
+
+- name: SQL
+  logo: /images/sections/skills/sql.png
+  summary: "Know all Fundamentals of writing and creating queries from a database. As well as, writing automation scripts using JDBC Libraries."
+  url: "https://www.mysql.com/"
+
+- name: Cucumber / Gherkin
+  logo: /images/sections/skills/cucumber.png
+  summary: "Extensive practice writing features, runners, step definition and User-Stories for cucumber based projects"
+  url: "https://cucumber.io/"
+
+- name: Selenium WebDriver
+  logo: /images/sections/skills/selenium-icon.png
+  summary:  "Using Selenium Webdriver with Cucumber-JUnit for UI testing in my frameworks. Experience with parallel testing using Selenium Grid. Use things like appium for mobile testing"
+  url: "https://www.selenium.dev/"
+- name: Jira
+  logo: /images/sections/skills/jira.png
+  summary:  Experienced using Jira tools to write detailed User-Stories and track / report bugs.
+  url: "https://www.atlassian.com/software/jira"
+
+- name: PostMan
+  logo: /images/sections/skills/postman.png
+  summary:  I've used postman's collection frameworks to write API test suites prior to deserialization and serialization tests within my Java Framework using REST Assured Libraries.
+  url: "https://www.postman.com/"
+
+
+- name: Spring Boot
+  logo: /images/sections/skills/spring_boot-icon.png
+  summary: "Capable of writing Rest Controllers and working within Spring Frameworks"
+  url: "https://spring.io/"
+
+- name: Appium
+  logo: /images/sections/skills/appium-icon.png
+  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
+  url: "http://appium.io/"
+
+- name: CI/CD
+  logo: /images/sections/skills/jenkins-icon.png
+  summary: "Created Jenkins Jobs to have test suite such as: Regression and Smoke run automatically at specific time's and whenever developers push codes to specific branch. Allowing to fully automate deployment if tests checkout"
+  url: "https://www.jenkins.io/"
+
+- name: Cloud Computing
+  logo: /images/sections/skills/cloud.png
+  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+  url: "https://aws.amazon.com/"
+- name: Katare DSL
+  logo: /images/sections/skills/karate.png
+  summary: "Using for API automation testing, Performance, and Load testing."
+  url: "https://aws.amazon.com/"
+#- name: Docker
+#  logo: /images/sections/skills/docker.png
+#  summary: "Using for API automation testing, Performance, and Load testing."
+#  url: "https://aws.amazon.com/"
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+
+- name: Gits
+  logo: /images/sections/skills/git.png
+  summary: "Experienced with Git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+  url: "https://git-scm.com/"
+
+- name: Microsoft 365
+  logo: /images/sections/skills/microsoft.png
+  summary: Used tools like Excel for personal projects as well as for testing Bulk Data within Java test cases. Additionally, I'm familiar with Teams and Outlook for day to day work!
+  url: "https://www.office.com/"
