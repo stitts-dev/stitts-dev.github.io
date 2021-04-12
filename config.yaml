@@ -1,4 +1,4 @@
-baseURL: https://jadenstittsworth-resume.com
+baseURL: https://jadenstittsworth.com
 
 languageCode: en-us
 title: "My Portfolio"
@@ -70,6 +70,6 @@ params:
   # Configure Notes property
   notes:
     # Set a background color of note card header. Use any CSS color code/name.
-    headerBackground: aliceblue
+    headerBackground: MediumSpringGreen
     # Set note card title color.
     headerTextColor: #1c2d41
