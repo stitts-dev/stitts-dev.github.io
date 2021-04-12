@@ -10,7 +10,17 @@ section:
   # hideTitle: true
 
 degrees:
-- name: High School Diploma
+- name: Certificate Bootcamp.
+  icon: fa-university
+  timeframe: 2020-2021
+  institution:
+    name: Cybertek Schools SDET Training Bootcamp
+  grade: #(optional)
+    scale: GPA
+    achieved: 4.5
+    outOf: 5
+
+- name: Highschool Diploma
   icon: fa-graduation-cap
   timeframe: 2016-2020
   institution:
@@ -74,12 +84,3 @@ degrees:
 #  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
 #  - Duis sed massa feugiat, ornare justo et, aliquam est.
   #- Pellentesque ut fringilla magna.
-- name: Certificate Bootcamp.
-  icon: fa-university
-  timeframe: 2020-2021
-  institution:
-    name: Cybertek Schools SDET Training Bootcamp
-  grade: #(optional)
-    scale: GPA
-    achieved: 4.5
-    outOf: 5
