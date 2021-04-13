@@ -14,14 +14,14 @@ achievements:
   image: /images/sections/achievements/pittsburgh.jpg
   summary: Born and raised in my beautiful hometown of Pittsburgh.
 
-- title: Second Child
-  image: /images/sections/achievements/civic.jpg
+- title: Achievements
+  image: /images/sections/achievements/civic.png
   summary: Worked incredibly hard throughout highschool to save up for my first dream car. Love doing all the maintenance and learning about the engine and all the parts. Would love to mod it someday.
 
 - title: Hobbies
   image: /images/sections/achievements/league.png
   summary: Pretty my much my main hobby besides work, my car, and helping my friends build computers. In the course of my league career I grew Duck Dynasty tier beared climbing to the top .01% of players, mastering my team skills, coordination, and communication.
 
-- title: First Child
+- title: Child
   image: /images/sections/achievements/rascal.jpeg
   summary: My little buddy keeps me sain while I study all day. At this point she could probably answer my interview questions for me with how much I have read them to her for practice.
