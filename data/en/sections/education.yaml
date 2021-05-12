@@ -14,11 +14,8 @@ degrees:
   icon: fa-university
   timeframe: 2020-2021
   institution:
-    name: Cybertek Coding School
-  grade: #(optional)
-    scale: GPA
-    achieved: 4.5
-    outOf: 5
+    name: Cybertek Coding Schools
+ =
 
 - name: Highschool Diploma
   icon: fa-graduation-cap
@@ -26,10 +23,7 @@ degrees:
   institution:
     name: Mount Lebanon Highschool
     url: "#"
-  grade: #(optional)
-    scale: GPA
-    achieved: 3.0
-    outOf: 4
+  =
 #  publications: #(optional)
 #  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #    url: "#"
