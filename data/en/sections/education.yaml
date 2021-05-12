@@ -10,11 +10,11 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Manual and Automation Testing/ SDET/ Test Automationcoding school focusedon Test Automation, Full Stack Development, DevOpsand RPA in the USA.Completed over 1000+ hours of full-time course instruction,project, and workexperience in the industry.
+- name: Certificate Bootcamp.
   icon: fa-university
   timeframe: 2020-2021
   institution:
-    name: Cybertek Coding School
+    name: Cybertek Schools SDET Training Bootcamp
   grade: #(optional)
     scale: GPA
     achieved: 4.5
