@@ -15,7 +15,7 @@ degrees:
   timeframe: 2020-2021
   institution:
     name: Cybertek Coding Schools
- =
+
 
 - name: Highschool Diploma
   icon: fa-graduation-cap
@@ -23,7 +23,7 @@ degrees:
   institution:
     name: Mount Lebanon Highschool
     url: "#"
-  =
+
 #  publications: #(optional)
 #  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #    url: "#"
