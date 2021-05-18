@@ -15,7 +15,7 @@ skills:
 
 - name: Java
   logo: /images/sections/skills/java.png
-  summary: "Know high-level Java programming. Follow all best practices for clean and concise code. I've used this for problem solving as well as writing many Automation testing Frameworks. As well as, many handy utility packages."
+  summary: "Know high-level Java programming. Follow all best practices for clean and concise code. I've used this for problem solving as well as writing many Automation testing Frameworks and many handy utility packages."
   url: "https://www.java.com/en/"
 
 - name: SQL
@@ -34,7 +34,7 @@ skills:
   url: "https://www.selenium.dev/"
 - name: Jira
   logo: /images/sections/skills/jira.png
-  summary:  Experienced using Jira tools to write detailed User-Stories and track / report bugs.
+  summary:  "Experienced using Jira tools to write detailed User-Stories and track / report bugs."
   url: "https://www.atlassian.com/software/jira"
 
 - name: PostMan
