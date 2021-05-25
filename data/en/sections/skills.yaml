@@ -34,7 +34,7 @@ skills:
   url: "https://www.selenium.dev/"
 - name: Jira
   logo: /images/sections/skills/jira.png
-  summary:  "Experienced using Jira tools to write detailed User-Stories and track / report bugs."
+  summary:  "Experienced using Jira tools to write detailed User-Stories as well as track and report bugs."
   url: "https://www.atlassian.com/software/jira"
 
 - name: PostMan
@@ -50,7 +50,7 @@ skills:
 
 - name: Appium
   logo: /images/sections/skills/appium-icon.png
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
+  summary: "Designed and developed simple testcases for personal projects, utilizing android studio and appium within a hybrid framework."
   url: "http://appium.io/"
 
 - name: CI/CD
@@ -64,7 +64,7 @@ skills:
   url: "https://aws.amazon.com/"
 - name: Katare DSL
   logo: /images/sections/skills/karate.png
-  summary: "Using for API automation testing, Performance, and Load testing."
+  summary: "Used for API automation testing, Performance, and Load testing."
   url: "https://aws.amazon.com/"
 #- name: Docker
 #  logo: /images/sections/skills/docker.png
@@ -72,7 +72,7 @@ skills:
 #  url: "https://aws.amazon.com/"
 - name: Linux
   logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of basic navigation and editing text with VIM, sublime, atom, and more."
+  summary: "Capable of basic navigation and editing text with VIM, sublime, atom, and more."
 
 - name: Git
   logo: /images/sections/skills/git.png

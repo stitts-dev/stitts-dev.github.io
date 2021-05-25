@@ -18,14 +18,14 @@ designation: Test Automation Engineer
 resume: "files/resume.pdf"
 
 # a summary about you
-summary: "I am a passionate SDET looking for my first team. My main Language is Java. I’ve designed and developed many DD, BD, Hybrid Framework automation test scripts for Front End and Backend projects. I am experienced with Waterfall, Agile, and Agile scrum methodologies. Teamwork and Communication are my top priorities. I’m incredibly excited to share my knowledge and experience. As well as, learn from others in order to solve new and exciting problems. I have an aptitude for learning and adapting to new projects and teams. I’m a hard worker with a very positive outlook and a great personality!"
+summary: "I am a passionate Test Automation Engineer looking for my next challenge. My main Language is Java. I’ve designed and developed many DD, BD, Hybrid Framework automation test scripts for Front End and Backend projects. I am experienced with Waterfall, Agile, and Agile scrum methodologies. Teamwork and Communication are my top priorities. I’m incredibly excited to share my knowledge and experience. As well as, learn from others in order to solve new and exciting problems. I have an aptitude for learning and adapting to new projects and teams. I’m a hard worker with a very positive outlook and a great personality!"
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "admin@jadenstittsworth-resume.com"
+  url: "jadenrs10@gmail.com"
 
 - name: Github
   icon: "fab fa-github"
@@ -33,7 +33,7 @@ socialLinks:
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
+  url: "www.linkedin.com/in/jadenstittsworth"
 
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
@@ -46,10 +46,10 @@ softSkills:
   percentage: 100
   color: yellow
 - name: Communication
-  percentage: 100
+  percentage: 97
   color: pink
 - name: Hard Working
-  percentage: 100
+  percentage: 99
   color: green
 - name: Fast Learner
   percentage: 90

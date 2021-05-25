@@ -33,8 +33,17 @@ projects:
   role: Developer
   timeline: "April 2021 - Present"
   repo: https://github.com/Stitts5401/stitts5401.github.io
-  summary: Personal Portfolio from Hugo using toha theme. GitHub Actions is used for CI/cD.
+  summary: Personal Portfolio using Hugo-toha theme. GitHub Actions is used for CI/CD. Created to help display eagerness to learn new unfamiliar languages and frameworks as well as my personality!
   tags: ["Academic", "Professionalism"]
+
+- name: Classified!
+  logo: /images/sections/projects/no-code.png
+  role: Developer
+  timeline: "may 2021 - Present"
+  repo: https://github.com/Stitts5401 # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary:  "[ 404: THIS PROJECT IS CURRENTLY UNDER CONSTRUCTION ]"
+  tags: ["Academic", "Hobby"]
 
 #- name: Hugo-Site github Pages
 #  logo: /images/sections/projects/hugosite.png
