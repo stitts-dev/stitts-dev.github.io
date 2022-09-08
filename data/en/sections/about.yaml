@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Test Automation Engineer
+designation: Software Developer
 # your company information
 #company:
 #  name: Example Co.
@@ -18,7 +18,7 @@ designation: Test Automation Engineer
 resume: "files/resume.pdf"
 
 # a summary about you
-summary: "I am a passionate Test Automation Engineer looking for my next challenge. My main Language is Java. I’ve designed and developed many DD, BD, Hybrid Framework automation test scripts for Front End and Backend projects. I am experienced with Waterfall, Agile, and Agile scrum methodologies. Teamwork and Communication are my top priorities. I’m incredibly excited to share my knowledge and experience. As well as, learn from others in order to solve new and exciting problems. I have an aptitude for learning and adapting to new projects and teams. I’m a hard worker with a very positive outlook and a great personality!"
+summary: "Currently, I’m working as a full-time contractor at PNC bank. In my time so far I’ve been able to use my skills to introduce an automation framework into both of my projects. Most notably I learned and actively work with a few new tools to develop my projects. Spring Boot and Java Swing. I’m now comfortable enough to consider myself a Full-Stack Java Developer. I've designed and developed many DD, BD, and hybrid framework test scripts for Front-End and Back-End projects. My primary languages are Java, Gherkin, and SQL. However, I also work with JSON, Html, and XML frequently. I have a strong work ethic. I am a team player and I’m always cheerful and eager to learn new things and grow as a professional. I still have much to learn but I’m always open to new opportunities to grow as a developer!"
 
 # your social links
 # give as many as you want. use font-awesome for the icons.

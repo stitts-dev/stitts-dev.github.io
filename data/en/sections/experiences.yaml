@@ -2,7 +2,7 @@
 section:
   name: Experiences
   id: experiences
-  enable: false
+  enable: true
   weight: 3
   showOnNavbar: true
   # Can optionally hide the title in sections
@@ -11,50 +11,45 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
+    name: PNC Bank
+    url: "https://www.pnc.com/en/about-pnc.html?lnksrc=topnav"
+    location: Pittsburgh, PA - remote
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: Create tools and services which allow other teams to access, reserve, and manipulate test data.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Software Developer / Test-Analyst
+    start: Aug 2021
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-
-
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
+    - Introduct Testing Frameworks into my two projects.
+    - Develop and maintain a Spring boot application.
+    - Develop and maintain a Java Swing application.
+    - Agile practices
 
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    name: SysLibrary
+    location: Pittsburgh, PA - remote
+    overview: Redesigned and implemented a new Automation Framework for web-based applications and developed Cucumber features to test the functionality of the application using Selenium WebDriver and TestNG.
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: Intern Test Automation Engineer
+    start: Dec 2020
+    end: Aug 2021
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Wrote many UI Tests
+    - Evaluated user stories and participated in Sprint Planning, Review Sessions &amp; Scrum Meetings and developed Test Scenarios, Test Cases, Test Data, and Test Reports.
+    - Utilized Jenkins to automate the execution of Smoke Test several times a day, confirming essential functionalities worked as expected.
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    name: FleetApps
+    location: Pittsburgh, PA - remote
+    overview: Automated End-to-End Test framework in accordance with FleetApps startup web application services. Involved in UI Testing & API Testing.
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: QE Intern
+    start: May 2020
+    end: Dec 2020
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Created Cucumber BDD testing framework from scratch using Selenium WebDriver, Junit, and Maven using the Page Object Model.
+    - Performed RESTful API Testing (using GET, POST, PULL, DELETE) using Rest Assured Library (using Given, When, Then syntax) with Java and also manually tested API using POSTMAN for development.

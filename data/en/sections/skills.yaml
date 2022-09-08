@@ -1,12 +1,12 @@
 # section information
 section:
-  name: Skills
+  name:
   id: skills
   enable: true
   weight: 2
   showOnNavbar: true
   # Can optionally hide the title in sections
-  # hideTitle: true
+hideTitle: true
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
@@ -17,6 +17,16 @@ skills:
   logo: /images/sections/skills/java.png
   summary: "Know high-level Java programming. Follow all best practices for clean and concise code. I've used this for problem solving as well as writing many Automation testing Frameworks and many handy utility packages."
   url: "https://www.java.com/en/"
+
+- name: Spring Boot
+  logo: /images/sections/skills/spring_boot-icon.png
+  summary: "Capable of writing Rest Controllers and working within Spring Frameworks."
+  url: "https://spring.io/"
+
+- name: Katare
+  logo: /images/sections/skills/karate.png
+  summary: "I've implemented karate frameworks into multiple projects from scratch in order to test both Front and Back-End"
+  url: "https://aws.amazon.com/"
 
 - name: SQL
   logo: /images/sections/skills/sql.png
@@ -32,6 +42,7 @@ skills:
   logo: /images/sections/skills/selenium-icon.png
   summary:  "Using Selenium Webdriver with Cucumber-JUnit for UI testing in my frameworks. Experience with parallel testing using Selenium Grid. Use things like appium for mobile testing."
   url: "https://www.selenium.dev/"
+
 - name: Jira
   logo: /images/sections/skills/jira.png
   summary:  "Experienced using Jira tools to write detailed User-Stories as well as track and report bugs."
@@ -42,17 +53,6 @@ skills:
   summary:  I've used postman's collection frameworks to write API test suites prior to deserialization and serialization tests within my Java Framework using REST Assured Libraries.
   url: "https://www.postman.com/"
 
-
-- name: Spring Boot
-  logo: /images/sections/skills/spring_boot-icon.png
-  summary: "Capable of writing Rest Controllers and working within Spring Frameworks."
-  url: "https://spring.io/"
-
-- name: Appium
-  logo: /images/sections/skills/appium-icon.png
-  summary: "Designed and developed simple testcases for personal projects, utilizing android studio and appium within a hybrid framework."
-  url: "http://appium.io/"
-
 - name: CI/CD
   logo: /images/sections/skills/jenkins-icon.png
   summary: "Created Jenkins Jobs to have test suite such as: Regression and Smoke run automatically at specific time's and whenever developers push codes to specific branch. Allowing to fully automate deployment if tests checkout."
@@ -62,21 +62,10 @@ skills:
   logo: /images/sections/skills/cloud.png
   summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
   url: "https://aws.amazon.com/"
-- name: Katare DSL
-  logo: /images/sections/skills/karate.png
-  summary: "Used for API automation testing, Performance, and Load testing."
-  url: "https://aws.amazon.com/"
-#- name: Docker
-#  logo: /images/sections/skills/docker.png
-#  summary: "Using for API automation testing, Performance, and Load testing."
-#  url: "https://aws.amazon.com/"
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Capable of basic navigation and editing text with VIM, sublime, atom, and more."
 
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Experienced with Git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+  summary: "Experienced with Git-based development. I have plenty of experience and knowledge of best practices."
   url: "https://git-scm.com/"
 
 - name: Microsoft 365
