@@ -73,3 +73,8 @@ params:
     headerBackground: MediumSpringGreen
     # Set note card title color.
     headerTextColor: #1c2d41
+
+  darkMode:
+    enable: true
+    provider: darkreader
+    default: system
