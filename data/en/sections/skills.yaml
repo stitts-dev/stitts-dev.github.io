@@ -28,7 +28,7 @@ skills:
   summary: "I've implemented karate frameworks into multiple projects from scratch in order to test both Front and Back-End"
   url: "https://aws.amazon.com/"
 
-- name: SQL
+- name: SQL Test
   logo: /images/sections/skills/sql.png
   summary: "Know all Fundamentals of writing and creating queries from a database. As well as, writing automation scripts using JDBC Libraries."
   url: "https://www.mysql.com/"
