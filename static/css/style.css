@@ -1,5 +1,22 @@
 /* This is empty CSS file intended to be overwritten by user's custom CSS file */
 
+.home .greeting {
+  color: #000000 !important;
+}
+
+.home img {
+    background-color: rgb(0 0 0 ));
+    background-opacity: 16%;
+}
+
+.home .greeting {
+    color: rgb(0 0 0) !important;
+}
+
+.home .typing-carousel {
+  font-size:20pt;
+  color: #000000 !important;
+}
 /* ============= Device specific fixes ======= */
 
 /* Large screens such as TV */
