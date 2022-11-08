@@ -40,8 +40,9 @@ experiences:
     start: Dec 2020
     end: Aug 2021
     responsibilities:
-    - Wrote many UI Tests
-    - Evaluated user stories and participated in Sprint Planning, Review Sessions &amp; Scrum Meetings and developed Test Scenarios, Test Cases, Test Data, and Test Reports.
+    - Analyzed features and requirements to write/automate UI Tests for a web application with 10 million users, which increased test coverage by 20%.
+    - Involved in both Web and Mobile testing projects using Appium. Wrote over 1000 test cases, which reduced the number of production bugs by 50%.
+    - Participated in Sprint Planning, Review Sessions & Scrum Meetings to provide input on achievable deliverables for each sprint.
     - Utilized Jenkins to automate the execution of Smoke Test several times a day, confirming essential functionalities worked as expected.
 
 - company:
@@ -53,5 +54,7 @@ experiences:
     start: May 2020
     end: Dec 2020
     responsibilities:
-    - Created Cucumber BDD testing framework from scratch using Selenium WebDriver, Junit, and Maven using the Page Object Model.
-    - Performed RESTful API Testing (using GET, POST, PULL, DELETE) using Rest Assured Library (using Given, When, Then syntax) with Java and also manually tested API using POSTMAN for development.
+    - Successfully designed and implemented a new Automation Framework for web-based applications, increasing efficiency by 25%.
+    - Developed Cucumber features to test the functionality of the application using Appium, Selenium WebDriver, and TestNG.
+    - Successfully reduced the number of customer-reported bugs by 15%.
+    - Created Cucumber BDD testing framework from scratch using Selenium WebDriver, Junit, Appium, and Maven using the Page Object Model. Performed RESTful API Testing (using GET, POST, PULL, DELETE) using Rest Assured Library (using Given, When, Then syntax) with Java and also manually tested API using POSTMAN for development. Involved in both Web and Mobile testing projects using Appium.
