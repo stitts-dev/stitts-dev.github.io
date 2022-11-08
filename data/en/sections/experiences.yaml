@@ -11,7 +11,7 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: PNC Bank
+    name: Tata Consultant Agency (PNC Bank) - FTE
     url: "https://www.pnc.com/en/about-pnc.html?lnksrc=topnav"
     location: Pittsburgh, PA - remote
     # company overview
@@ -23,11 +23,13 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Introduct Testing Frameworks into my two projects.
-    - Develop and maintain a Spring boot application.
-    - Develop and maintain a Java Swing application.
-    - Agile practices
-
+    - Developing & maintaining software tools used by over 50 QA Engineers, allowing them to access, reserve, and manipulate test data.
+    - Developing a JSwing application used by over 100 employees daily, saving the company an average of 2 hours per day or more.
+    - Collaborating with the Product team to understand requirements & develop tools, which is increasing productivity by 15% and growing.
+    - Leading the Testing efforts of a team of 5 developers responsible for testing products before release.
+    - Successfully migrated product from Kanban to Agile methodology, ensuring a smooth transition and no loss in productivity.
+    - Evaluated user stories and participated in Sprint Planning, Review Sessions & Scrum Meetings
+    - Developed Test Scenarios, Test Cases, Test Data, and Test Reports.
 
 - company:
     name: SysLibrary
