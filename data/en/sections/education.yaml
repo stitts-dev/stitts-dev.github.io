@@ -10,6 +10,12 @@ section:
   # hideTitle: true
 
 degrees:
+- name: Java Full-Stack Developer Bootcamp. Focus points-  Java Core, Spring, Docker, MySql, JUnit, Mockito, and Bootstrap.
+  icon: fa-university
+  timeframe: Jul 2023-Present
+  institution:
+    name: CYDEO Coding Schools
+
 - name: Java Full Stack automation developer(SDET) program. Focused on training IT professionals from the ground up. Started basics of Java to Selenium to SQL and on. This program produces some of the sharpest Test Automation Engineers in the market.
   icon: fa-university
   timeframe: 2020-2021
