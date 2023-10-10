@@ -11,6 +11,21 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Talogy Tech
+    url: "https://www.talogy.com/en/"
+    location: Pittsburgh, PA - remote
+    overview: Ensure smooth development process working hand in hand with developers.
+  positions:
+      - designation: Software Developer in Test
+        start: Nov 2022
+        end: Present
+        responsibilities:
+          - Implemented refactoring techniques on the existing test automation suite, improving code maintainability by 30%.
+          - Collaborated with cross-functional teams to identify and prioritize critical test cases for inclusion in the automation suite, resulting in a 20% increase in overall test coverage.
+          - Engaged in a dedicated self-study of C#, Azure cloud services, ASP.NET, and Angular to deepen my knowledge and improve my proficiency in application testing, enhancing my ability to deliver high-quality results.
+          - Worked closely with developers to create automated tests for new features, resulting in a 50% reduction in manual testing efforts and faster time-to-market.
+
+- company:
     name: Tata Consultant Agency (PNC Bank) - FTE
     url: "https://www.pnc.com/en/about-pnc.html?lnksrc=topnav"
     location: Pittsburgh, PA - remote
@@ -18,7 +33,8 @@ experiences:
     overview: Create tools and services which allow other teams to access, reserve, and manipulate test data.
   positions:
   - designation: Software Developer / Lead Test-Analyst
-    start: Aug 2021
+    start: May 2021
+    end: Nov 2022
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
@@ -38,23 +54,9 @@ experiences:
   positions:
   - designation: Intern Test Automation Engineer
     start: Dec 2020
-    end: Aug 2021
+    end: May 2021
     responsibilities:
     - Analyzed features and requirements to write/automate UI Tests for a web application with 10 million users, which increased test coverage by 20%.
     - Involved in both Web and Mobile testing projects using Appium. Wrote over 1000 test cases, which reduced the number of production bugs by 50%.
     - Participated in Sprint Planning, Review Sessions & Scrum Meetings to provide input on achievable deliverables for each sprint.
     - Utilized Jenkins to automate the execution of Smoke Test several times a day, confirming essential functionalities worked as expected.
-
-- company:
-    name: FleetApps
-    location: Pittsburgh, PA - remote
-    overview: Automated End-to-End Test framework in accordance with FleetApps startup web application services. Involved in UI Testing & API Testing.
-  positions:
-  - designation: QE Intern
-    start: May 2020
-    end: Dec 2020
-    responsibilities:
-    - Successfully designed and implemented a new Automation Framework for web-based applications, increasing efficiency by 25%.
-    - Developed Cucumber features to test the functionality of the application using Appium, Selenium WebDriver, and TestNG.
-    - Successfully reduced the number of customer-reported bugs by 15%.
-    - Created Cucumber BDD testing framework from scratch using Selenium WebDriver, Junit, Appium, and Maven using the Page Object Model. Performed RESTful API Testing (using GET, POST, PULL, DELETE) using Rest Assured Library (using Given, When, Then syntax) with Java and also manually tested API using POSTMAN for development. Involved in both Web and Mobile testing projects using Appium.
