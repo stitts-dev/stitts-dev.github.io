@@ -15,10 +15,22 @@ designation: Software Developer
 #  url: "https://www.example.com"
 
 # your resume. this file path should be relative to you "static" directory
-resume: "files/resume.pdf"
+resume: "files/resume_10-23.pdf"
 
 # a summary about you
-summary: "Currently, I’m working as a full-time contractor at PNC bank. In my time so far I’ve been able to use my skills to introduce an automation framework into both of my projects. Most notably I learned and actively work with a few new tools to develop my projects. Spring Boot and Java Swing. I’m now comfortable enough to consider myself a Full-Stack Java Developer. I've designed and developed many DD, BD, and hybrid framework test scripts for Front-End and Back-End projects. My primary languages are Java, Gherkin, and SQL. However, I also work with JSON, Html, and XML frequently. I have a strong work ethic. I am a team player and I’m always cheerful and eager to learn new things and grow as a professional. I still have much to learn but I’m always open to new opportunities to grow as a developer!"
+summary: "Experienced Software Professional Transitioning to Software Development
+
+With a robust background in software testing and a current commitment to solidifying my skills in a Fullstack bootcamp, I am eager to leverage my diverse skill set in my transition to a software development role. Having previously served as a developer, I possess valuable experience that positions me for success in this dynamic field.
+
+My journey in software development began with a strong foundation in Java and has evolved to encompass expertise in Java 8+, Spring Framework, including Spring Boot, and Bootstrap, enhancing my full-stack capabilities.
+
+Throughout my career, I've made significant contributions to software tool development, facilitating access, reservation, and manipulation of test data for over 50 QA Engineers. Collaborating closely with the Product team, I've crafted productivity-enhancing tools that resulted in a remarkable 15% boost in efficiency.
+
+In addition to my development skills, my testing experience spans feature analysis, UI test automation, and active participation in web and mobile testing projects using Appium. I've demonstrated leadership by overseeing testing efforts for a team of five developers and successfully transitioning a product from Kanban to Agile methodology.
+
+My portfolio and demo projects serve as tangible evidence of my ability to design and implement automation frameworks for web-based applications, elevating test coverage and reducing customer-reported bugs. My proficiency in both development and testing positions me as a versatile asset in the software development landscape.
+
+I am enthusiastic about merging my testing insights with my development skills to craft robust, high-quality software solutions. I eagerly anticipate contributing my expertise to innovative projects as I continue my journey in the world of software development."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.

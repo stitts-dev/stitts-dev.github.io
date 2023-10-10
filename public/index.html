@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	<meta name="generator" content="Hugo 0.102.3" />
+	<meta name="generator" content="Hugo 0.119.0">
     <title>My Portfolio</title>
     
     
@@ -31,6 +31,8 @@
 
 
 
+<link rel="stylesheet" href="/css/colortheme/colortheme.css"/>
+
 
 
 
@@ -53,10 +55,10 @@
 
 
 
-<meta property="og:title" content="My Portfolio"/>
+<meta property="og:title" content="Stitts.Dev"/>
 <meta property="og:type" content="website"/>
 <meta property="og:description" content="Portfolio and personal blog of Jaden Stittsworth."/>
-<meta property="og:image" content="https://jadenstittsworth.com/images/author/john.jpg">
+<meta property="og:image" content="https://jadenstittsworth.com/images/author/jaden.png">
 <meta property="og:url" content="https://jadenstittsworth.com">
 
     <link rel="stylesheet" href="/css/sections/home.css"/>
@@ -79,18 +81,17 @@
 
 
     
-<script type="application/javascript">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5GE9QY8QQ2"></script>
+<script>
 var doNotTrack = false;
 if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-120740027-1', 'auto');
-	
-	ga('send', 'pageview');
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-5GE9QY8QQ2', { 'anonymize_ip': false });
 }
 </script>
+
 
 </head>
   <body data-spy="scroll" data-target="#top-navbar" data-offset="100">
@@ -114,16 +115,6 @@ if (!doNotTrack) {
   
 
 
-  
-
-
-
-
-  
-  
-    
-  
-  
 
 
 
@@ -132,6 +123,8 @@ if (!doNotTrack) {
     
   
   
+
+
 
 
 
@@ -145,8 +138,6 @@ if (!doNotTrack) {
 <nav class="navbar navbar-expand-xl top-navbar initial-navbar" id="top-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
-      
-        <img src="/images/site/inverted-logo_hue298048fb3b93afb5b9c93999f030d02_2048_42x0_resize_box_3.png" id="logo" alt="Logo">
       My Portfolio</a>
     <button
       class="navbar-toggler navbar-dark"
@@ -179,10 +170,17 @@ if (!doNotTrack) {
               
               
                 <li class="nav-item">
-                  <a class="nav-link" href="#skills">Skills</a>
+                  <a class="nav-link" href="#skills"></a>
                 </li>
               
             
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="#experiences">Experiences</a>
+                </li>
+              
             
             
               
@@ -194,10 +192,6 @@ if (!doNotTrack) {
             
             
               
-              
-                <li class="nav-item">
-                  <a class="nav-link" href="#projects">Projects</a>
-                </li>
               
             
             
@@ -221,12 +215,17 @@ if (!doNotTrack) {
                     
                   
                   
-                  
                     
                     
                   
                   
                     
+                    
+                  
+                  
+                    
+                    
+                      <a class="dropdown-item" href="#projects">Projects</a>
                     
                   
                   
@@ -251,6 +250,27 @@ if (!doNotTrack) {
         
         
         
+          <li class="nav-item dropdown">
+
+<div id="theme-initialization" style="display: none;"
+  default-theme="system"></div>
+<a class="nav-link dropdown-toggle"  href="#" id="themeSelector" role="button"
+  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <img id="navbar-theme-icon-svg" src="/icons/moon-svgrepo-com.svg" width=20>
+</a>
+<div class="dropdown-menu dropdown-menu-icons-only" aria-labelledby="themeSelector">
+  <a class="dropdown-item nav-link" href="#" onclick="enableLightTheme()">
+    <img class="menu-icon-center" src="/icons/sun-svgrepo-com.svg" width=20>
+  </a>
+  <a class="dropdown-item nav-link" href="#" onclick="enableDarkTheme()">
+    <img class="menu-icon-center" src="/icons/moon-svgrepo-com.svg" width=20>
+  </a>
+  <a class="dropdown-item nav-link" href="#" onclick="useSystemTheme()">
+    <img class="menu-icon-center" src="/icons/computer-svgrepo-com.svg" width=20>
+  </a>
+</div>
+</li>
+        
       </ul>
     </div>
   </div>
@@ -258,8 +278,6 @@ if (!doNotTrack) {
   
     <img src="/images/site/main-logo_hue298048fb3b93afb5b9c93999f030d02_2048_42x0_resize_box_3.png" class="d-none" id="main-logo" alt="Logo">
   
-  
-    <img src="/images/site/inverted-logo_hue298048fb3b93afb5b9c93999f030d02_2048_42x0_resize_box_3.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
   
 </nav>
 
@@ -320,32 +338,34 @@ if (!doNotTrack) {
 
 
 
+  
+
 
 <div class="container-fluid home" id="home">
   <style>
      
     #homePageBackgroundImageDivStyled {
-      background-image: url('/images/site/background3_hu3d03a01dcc18bc5be0e67db3d8d209a6_253214_500x0_resize_q75_box.jpg');
+      background-image: url('/images/site/background_hud6b7cc93ee3223418951df7ff03f2ff1_405513_500x0_resize_q75_box.jpg');
     }
      
     @media (min-width: 500px) and (max-width: 800px) {  
       #homePageBackgroundImageDivStyled {   
-          background-image: url('/images/site/background3_hu3d03a01dcc18bc5be0e67db3d8d209a6_253214_800x0_resize_q75_box.jpg');
+          background-image: url('/images/site/background_hud6b7cc93ee3223418951df7ff03f2ff1_405513_800x0_resize_q75_box.jpg');
         }
     }
     @media (min-width: 801px) and (max-width: 1200px) {  
       #homePageBackgroundImageDivStyled {   
-          background-image: url('/images/site/background3_hu3d03a01dcc18bc5be0e67db3d8d209a6_253214_1200x0_resize_q75_box.jpg');
+          background-image: url('/images/site/background_hud6b7cc93ee3223418951df7ff03f2ff1_405513_1200x0_resize_q75_box.jpg');
         }
     }
     @media (min-width: 1201px) and (max-width: 1500px) {  
       #homePageBackgroundImageDivStyled {   
-          background-image: url('/images/site/background3_hu3d03a01dcc18bc5be0e67db3d8d209a6_253214_1500x0_resize_q75_box.jpg');
+          background-image: url('/images/site/background_hud6b7cc93ee3223418951df7ff03f2ff1_405513_1500x0_resize_q75_box.jpg');
         }
     }
     @media (min-width: 1501px) {  
       #homePageBackgroundImageDivStyled {   
-          background-image: url('/images/site/background3.jpg');
+          background-image: url('/images/site/background.jpg');
         }
     }
     </style>
@@ -355,7 +375,7 @@ if (!doNotTrack) {
     class="background container-fluid"
   ></div>
   <div class="container content text-center">
-    <img src="/images/author/john_hu8bec894b04a6f78d7c467b73543ff63f_11878_148x148_fit_q75_box.jpg"
+    <img src="/images/author/jaden_hu2823cca6447bb56a5d99dc99e60694a4_398950_148x148_fit_box_3.png"
       class="rounded-circle mx-auto d-block img-fluid"
       alt="Author Image"
     />
@@ -368,15 +388,15 @@ if (!doNotTrack) {
     <ul id="typing-carousel-data">
       
         
-          <li>I am a FullStack Test Automation Engineer.</li>
+          <li>I&#39;m an SDET.</li>
         
-          <li>I test UI, APIs, and Databases.</li>
+          <li>I&#39;m a FullStack Java Developer.</li>
         
-          <li>I love Automation Frameworks.</li>
+          <li>I love to Automate.</li>
         
-          <li>I love servers.</li>
+          <li>I love Spring boot.</li>
         
-          <li>I want to learn!</li>
+          <li>I&#39;m always adding to my toolbelt!</li>
         
       
     </ul>
@@ -420,12 +440,12 @@ if (!doNotTrack) {
       <h3 class="p-1">Jaden Stittsworth</h3>
       
       <h5 class="p-1">
-        Test Automation Engineer
+        Software Developer
         
       </h5>
       
       <p class="p-1 text-justify">
-        I am a passionate Test Automation Engineer looking for my next challenge. My main Language is Java. I’ve designed and developed many DD, BD, Hybrid Framework automation test scripts for Front End and Backend projects. I am experienced with Waterfall, Agile, and Agile scrum methodologies. Teamwork and Communication are my top priorities. I’m incredibly excited to share my knowledge and experience. As well as, learn from others in order to solve new and exciting problems. I have an aptitude for learning and adapting to new projects and teams. I’m a hard worker with a very positive outlook and a great personality!
+        Currently, I’m working as a full-time contractor at PNC bank. In my time so far I’ve been able to use my skills to introduce an automation framework into both of my projects. Most notably I learned and actively work with a few new tools to develop my projects. Spring Boot and Java Swing. I’m now comfortable enough to consider myself a Full-Stack Java Developer. I&rsquo;ve designed and developed many DD, BD, and hybrid framework test scripts for Front-End and Back-End projects. My primary languages are Java, Gherkin, and SQL. However, I also work with JSON, Html, and XML frequently. I have a strong work ethic. I am a team player and I’m always cheerful and eager to learn new things and grow as a professional. I still have much to learn but I’m always open to new opportunities to grow as a developer!
       </p>
       <div class="text-container ml-auto">
         <ul class="social-link d-flex">
@@ -618,7 +638,7 @@ if (!doNotTrack) {
 <div class="container-fluid anchor pb-5 skills-section">
   
     <h1 class="text-center">
-        <span id="skills"></span>Skills</h1>
+        <span id="skills"></span></h1>
   
   <div class="container d-flex-block">
     <div class="row" id="primary-skills">
@@ -647,7 +667,7 @@ if (!doNotTrack) {
 
       
         <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="https://www.mysql.com/" title="SQL" target="_blank" rel="noopener">
+  <a class="skill-card-link" href="https://spring.io/" title="Spring Boot" target="_blank" rel="noopener">
     <div class="card">
       <div class="card-head d-flex">
         
@@ -657,12 +677,12 @@ if (!doNotTrack) {
             
           
         
-          <img class="card-img-xs" src="/images/sections/skills/sql_hu7937e1dc7da4e24b7b1f84f90d002fe9_1322_24x24_fit_box_3.png" alt="SQL" />
-          <h5 class="card-title">SQL</h5>
+          <img class="card-img-xs" src="/images/sections/skills/spring_boot-icon_hue20a323570e515399195c8d88179278f_1898_24x24_fit_box_3.png" alt="Spring Boot" />
+          <h5 class="card-title">Spring Boot</h5>
         
       </div>
       <div class="card-body">
-        <p class="card-text">Know all Fundamentals of writing and creating queries from a database. As well as, writing automation scripts using JDBC Libraries.</p>
+        <p class="card-text">Strong understanding and plenty of experience working within Spring Frameworks. I&rsquo;m comfortable creating mvc controllers-implementing services adding schedulers and much more. I have a good understanding of the tags.</p>
       </div>
     </div>
   </a>
@@ -670,7 +690,7 @@ if (!doNotTrack) {
 
       
         <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="https://cucumber.io/" title="Cucumber / Gherkin" target="_blank" rel="noopener">
+  <a class="skill-card-link" href="https://aws.amazon.com/" title="Katare" target="_blank" rel="noopener">
     <div class="card">
       <div class="card-head d-flex">
         
@@ -680,12 +700,12 @@ if (!doNotTrack) {
             
           
         
-          <img class="card-img-xs" src="/images/sections/skills/cucumber_hu89ca28e742de0cd380a1e43a3ee4225a_1592_24x24_fit_box_3.png" alt="Cucumber / Gherkin" />
-          <h5 class="card-title">Cucumber / Gherkin</h5>
+          <img class="card-img-xs" src="/images/sections/skills/karate_huf92fe3622d2052c81738cd9229078eb2_7170_24x24_fit_box_3.png" alt="Katare" />
+          <h5 class="card-title">Katare</h5>
         
       </div>
       <div class="card-body">
-        <p class="card-text">Extensive practice writing features, runners, step definition and User-Stories for cucumber based projects.</p>
+        <p class="card-text">I&rsquo;ve implemented karate frameworks into multiple projects from scratch in order to test both Front and Back-End. Work with daily to introduce test and expand our test coverage.</p>
       </div>
     </div>
   </a>
@@ -716,29 +736,6 @@ if (!doNotTrack) {
 
       
         <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="https://www.atlassian.com/software/jira" title="Jira" target="_blank" rel="noopener">
-    <div class="card">
-      <div class="card-head d-flex">
-        
-          
-          
-          
-            
-          
-        
-          <img class="card-img-xs" src="/images/sections/skills/jira_hu2179b2961cc4e9a241eb0e10237d4f21_2692_24x24_fit_box_3.png" alt="Jira" />
-          <h5 class="card-title">Jira</h5>
-        
-      </div>
-      <div class="card-body">
-        <p class="card-text">Experienced using Jira tools to write detailed User-Stories as well as track and report bugs.</p>
-      </div>
-    </div>
-  </a>
-</div>
-
-      
-        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
   <a class="skill-card-link" href="https://www.postman.com/" title="PostMan" target="_blank" rel="noopener">
     <div class="card">
       <div class="card-head d-flex">
@@ -755,52 +752,6 @@ if (!doNotTrack) {
       </div>
       <div class="card-body">
         <p class="card-text">I&rsquo;ve used postman&rsquo;s collection frameworks to write API test suites prior to deserialization and serialization tests within my Java Framework using REST Assured Libraries.</p>
-      </div>
-    </div>
-  </a>
-</div>
-
-      
-        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="https://spring.io/" title="Spring Boot" target="_blank" rel="noopener">
-    <div class="card">
-      <div class="card-head d-flex">
-        
-          
-          
-          
-            
-          
-        
-          <img class="card-img-xs" src="/images/sections/skills/spring_boot-icon_hue20a323570e515399195c8d88179278f_1898_24x24_fit_box_3.png" alt="Spring Boot" />
-          <h5 class="card-title">Spring Boot</h5>
-        
-      </div>
-      <div class="card-body">
-        <p class="card-text">Capable of writing Rest Controllers and working within Spring Frameworks.</p>
-      </div>
-    </div>
-  </a>
-</div>
-
-      
-        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="http://appium.io/" title="Appium" target="_blank" rel="noopener">
-    <div class="card">
-      <div class="card-head d-flex">
-        
-          
-          
-          
-            
-          
-        
-          <img class="card-img-xs" src="/images/sections/skills/appium-icon_huee810eeb375dab6e7f5b6936eb0ce743_3717_24x24_fit_box_3.png" alt="Appium" />
-          <h5 class="card-title">Appium</h5>
-        
-      </div>
-      <div class="card-body">
-        <p class="card-text">Designed and developed simple testcases for personal projects, utilizing android studio and appium within a hybrid framework.</p>
       </div>
     </div>
   </a>
@@ -831,7 +782,7 @@ if (!doNotTrack) {
 
       
         <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="https://aws.amazon.com/" title="Cloud Computing" target="_blank" rel="noopener">
+  <a class="skill-card-link" href="https://cucumber.io/" title="Cucumber / Gherkin" target="_blank" rel="noopener">
     <div class="card">
       <div class="card-head d-flex">
         
@@ -841,81 +792,12 @@ if (!doNotTrack) {
             
           
         
-          <img class="card-img-xs" src="/images/sections/skills/cloud_hu7018b904f8bff0d4527e1c31c6d17334_6540_24x24_fit_box_3.png" alt="Cloud Computing" />
-          <h5 class="card-title">Cloud Computing</h5>
+          <img class="card-img-xs" src="/images/sections/skills/cucumber_hu89ca28e742de0cd380a1e43a3ee4225a_1592_24x24_fit_box_3.png" alt="Cucumber / Gherkin" />
+          <h5 class="card-title">Cucumber / Gherkin</h5>
         
       </div>
       <div class="card-body">
-        <p class="card-text">Worked with most of the major clouds such as GCP, AWS, Azure etc.</p>
-      </div>
-    </div>
-  </a>
-</div>
-
-      
-        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="https://aws.amazon.com/" title="Katare DSL" target="_blank" rel="noopener">
-    <div class="card">
-      <div class="card-head d-flex">
-        
-          
-          
-          
-            
-          
-        
-          <img class="card-img-xs" src="/images/sections/skills/karate_huf92fe3622d2052c81738cd9229078eb2_7170_24x24_fit_box_3.png" alt="Katare DSL" />
-          <h5 class="card-title">Katare DSL</h5>
-        
-      </div>
-      <div class="card-body">
-        <p class="card-text">Used for API automation testing, Performance, and Load testing.</p>
-      </div>
-    </div>
-  </a>
-</div>
-
-      
-        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" >
-    <div class="card">
-      <div class="card-head d-flex">
-        
-          
-          
-          
-            
-          
-        
-          <img class="card-img-xs" src="/images/sections/skills/linux_huf8888e89df43f58ab32b560cb211e230_26357_24x24_fit_box_3.png" alt="Linux" />
-          <h5 class="card-title">Linux</h5>
-        
-      </div>
-      <div class="card-body">
-        <p class="card-text">Capable of basic navigation and editing text with VIM, sublime, atom, and more.</p>
-      </div>
-    </div>
-  </a>
-</div>
-
-      
-        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="https://git-scm.com/" title="Git" target="_blank" rel="noopener">
-    <div class="card">
-      <div class="card-head d-flex">
-        
-          
-          
-          
-            
-          
-        
-          <img class="card-img-xs" src="/images/sections/skills/git_hu6c1226675924c2f2e3476a81b4d03976_10660_24x24_fit_box_3.png" alt="Git" />
-          <h5 class="card-title">Git</h5>
-        
-      </div>
-      <div class="card-body">
-        <p class="card-text">Experienced with Git-based development. Mostly, use Github. Also, have experience in working with GitLab.</p>
+        <p class="card-text">Extensive experience working with BDD Testing frameworks. Writing features, Feature Runners, Step Definition and User-Stories for cucumber based projects. Utilizing things like selenium JDBC and REST Assured.</p>
       </div>
     </div>
   </a>
@@ -945,6 +827,75 @@ if (!doNotTrack) {
 </div>
 
       
+        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+  <a class="skill-card-link" href="https://www.atlassian.com/software/jira" title="Jira" target="_blank" rel="noopener">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+            
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/jira_hu2179b2961cc4e9a241eb0e10237d4f21_2692_24x24_fit_box_3.png" alt="Jira" />
+          <h5 class="card-title">Jira</h5>
+        
+      </div>
+      <div class="card-body">
+        <p class="card-text">Experienced using Jira tools to write detailed User-Stories as well as track and report bugs. I have introduced and setup Jira Xray into karate frameworks.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+      
+        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+  <a class="skill-card-link" href="https://git-scm.com/" title="Git" target="_blank" rel="noopener">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+            
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/git_hu6c1226675924c2f2e3476a81b4d03976_10660_24x24_fit_box_3.png" alt="Git" />
+          <h5 class="card-title">Git</h5>
+        
+      </div>
+      <div class="card-body">
+        <p class="card-text">Experienced with Git-based development. I have plenty of experience and knowledge of best practices.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+      
+        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+  <a class="skill-card-link" href="https://www.mysql.com/" title="SQL Test" target="_blank" rel="noopener">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+            
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/sql_hu7937e1dc7da4e24b7b1f84f90d002fe9_1322_24x24_fit_box_3.png" alt="SQL Test" />
+          <h5 class="card-title">SQL Test</h5>
+        
+      </div>
+      <div class="card-body">
+        <p class="card-text">Know all Fundamentals of writing and creating queries from a database. As well as, writing automation scripts using JDBC.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+      
     </div>
   </div>
 </div>
@@ -957,9 +908,194 @@ if (!doNotTrack) {
         
       
         
+          <div class="container-fluid section-holder d-flex bg-white">
+            
+
+  
+
+
+<div class="container-fluid anchor pb-5 experiences-section">
+  
+    <h1 class="text-center">
+        <span id="experiences"></span>Experiences</h1>
+  
+
+  <div class="container timeline text-justify">
+   
+   
+     
+       <div class="row align-items-center  d-flex">
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+  <div class="circle font-weight-bold">1</div>
+</div>
+
+         
+  <div class="col-10 col-lg-8">
+    <div class="experience-entry-heading">
+        
+        
+        <h5>Software Developer / Lead Test-Analyst</h5>
+        <h6><a href=https://www.pnc.com/en/about-pnc.html?lnksrc&#61;topnav title="Tata Consultant Agency (PNC Bank) - FTE" target="_blank" rel="noopener">Tata Consultant Agency (PNC Bank) - FTE</a></h6>
+        
+        <p class="text-muted">Aug 2021 - Present,
+            Pittsburgh, PA - remote
+        </p>
+    </div>
+    
+    <p>Create tools and services which allow other teams to access, reserve, and manipulate test data.</p>
+    
+    
+    <h6 class="text-muted">Responsibilities:</h6>
+    <ul class="justify-content-around">
+    
+        <li>Developing &amp; maintaining software tools used by over 50 QA Engineers, allowing them to access, reserve, and manipulate test data.</li>
+    
+        <li>Developing a JSwing application used by over 100 employees daily, saving the company an average of 2 hours per day or more.</li>
+    
+        <li>Collaborating with the Product team to understand requirements &amp; develop tools, which is increasing productivity by 15% and growing.</li>
+    
+        <li>Leading the Testing efforts of a team of 5 developers responsible for testing products before release.</li>
+    
+        <li>Successfully migrated product from Kanban to Agile methodology, ensuring a smooth transition and no loss in productivity.</li>
+    
+        <li>Evaluated user stories and participated in Sprint Planning, Review Sessions &amp; Scrum Meetings</li>
+    
+        <li>Developed Test Scenarios, Test Cases, Test Data, and Test Reports.</li>
+    
+    </ul>
+    
+</div>
+
+
+
+       </div>
+     
+     
+       <div class="row horizontal-line">
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+  <div class="col-10 col-lg-8">
+    <hr />
+  </div>
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+</div>
+
+     
+   
+     
+       <div class="row align-items-center justify-content-end d-flex">
+         
+  <div class="col-10 col-lg-8">
+    <div class="experience-entry-heading">
+        
+        
+        <h5>Intern Test Automation Engineer</h5>
+        <h6>SysLibrary</h6>
+        
+        <p class="text-muted">Dec 2020 - Aug 2021,
+            Pittsburgh, PA - remote
+        </p>
+    </div>
+    
+    <p>Redesigned and implemented a new Automation Framework for web-based applications and developed Cucumber features to test the functionality of the application using Selenium WebDriver and TestNG.</p>
+    
+    
+    <h6 class="text-muted">Responsibilities:</h6>
+    <ul class="justify-content-around">
+    
+        <li>Analyzed features and requirements to write/automate UI Tests for a web application with 10 million users, which increased test coverage by 20%.</li>
+    
+        <li>Involved in both Web and Mobile testing projects using Appium. Wrote over 1000 test cases, which reduced the number of production bugs by 50%.</li>
+    
+        <li>Participated in Sprint Planning, Review Sessions &amp; Scrum Meetings to provide input on achievable deliverables for each sprint.</li>
+    
+        <li>Utilized Jenkins to automate the execution of Smoke Test several times a day, confirming essential functionalities worked as expected.</li>
+    
+    </ul>
+    
+</div>
+
+
+
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+  <div class="circle font-weight-bold">2</div>
+</div>
+
+       </div>
+     
+     
+       <div class="row horizontal-line">
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+  <div class="col-10 col-lg-8">
+    <hr />
+  </div>
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+</div>
+
+     
+   
+     
+       <div class="row align-items-center  d-flex">
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+  <div class="circle font-weight-bold">3</div>
+</div>
+
+         
+  <div class="col-10 col-lg-8">
+    <div class="experience-entry-heading">
+        
+        
+        <h5>QE Intern</h5>
+        <h6>FleetApps</h6>
+        
+        <p class="text-muted">May 2020 - Dec 2020,
+            Pittsburgh, PA - remote
+        </p>
+    </div>
+    
+    <p>Automated End-to-End Test framework in accordance with FleetApps startup web application services. Involved in UI Testing &amp; API Testing.</p>
+    
+    
+    <h6 class="text-muted">Responsibilities:</h6>
+    <ul class="justify-content-around">
+    
+        <li>Successfully designed and implemented a new Automation Framework for web-based applications, increasing efficiency by 25%.</li>
+    
+        <li>Developed Cucumber features to test the functionality of the application using Appium, Selenium WebDriver, and TestNG.</li>
+    
+        <li>Successfully reduced the number of customer-reported bugs by 15%.</li>
+    
+        <li>Created Cucumber BDD testing framework from scratch using Selenium WebDriver, Junit, Appium, and Maven using the Page Object Model. Performed RESTful API Testing (using GET, POST, PULL, DELETE) using Rest Assured Library (using Given, When, Then syntax) with Java and also manually tested API using POSTMAN for development. Involved in both Web and Mobile testing projects using Appium.</li>
+    
+    </ul>
+    
+</div>
+
+
+
+       </div>
+     
+     
+   
+  </div>
+</div>
+
+          </div>
+          
+          
+            
+          
+        
       
         
-          <div class="container-fluid section-holder d-flex bg-white">
+          <div class="container-fluid section-holder d-flex bg-dimmed">
             
 
 
@@ -998,7 +1134,7 @@ if (!doNotTrack) {
                                 </div>
                                 <div class="timeframe col-lg-2 col-md-4">2020-2021</div>
                             </div>
-                            <h6>Manual and Automation Testing/ SDET/ Test Automationcoding school focusedon Test Automation, Full Stack Development, DevOpsand RPA in the USA.Completed over 1000&#43; hours of full-time course instruction,project, and workexperience in the industry.</h6>
+                            <h6>Java Full Stack automation developer(SDET) program. Focused on training IT professionals from the ground up. Started basics of Java to Selenium to SQL and on. This program produces some of the sharpest Test Automation Engineers in the market.</h6>
                             
                             
                             
@@ -1029,7 +1165,7 @@ if (!doNotTrack) {
                                 </div>
                                 <div class="timeframe col-lg-2 col-md-4">2016-2020</div>
                             </div>
-                            <h6>Mt. Lebanon provides an unmatched education, preparing you for any career. Loved my AP Computer Science course with a passion and had to make it into a career.</h6>
+                            <h6>Was extremely passionate about my AP Computer Science and CISCO classes. Knew very early on this would be my career. Mt. Lebanon provided an unmatched education that prepared me to start my journey as early as possible. Was able to graduate early and begin my work in my boot camp.</h6>
                             
                             
                             
@@ -1051,7 +1187,7 @@ if (!doNotTrack) {
         
       
         
-          <div class="container-fluid section-holder d-flex bg-dimmed">
+          <div class="container-fluid section-holder d-flex bg-white">
             
 
   
@@ -1081,75 +1217,6 @@ if (!doNotTrack) {
   </div>
   <div class="container filtr-projects">
     <div class="row" id="project-card-holder">
-      
-        <div
-  class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
-  data-category='all, Academic,Hobby,Automation'
->
-  <div class="card mt-1">
-    <div class="card">
-      <a class="card-header" href="https://github.com/Stitts5401/spotifyScripts" target="_blank" rel="noopener">
-        <div>
-          <div class="d-flex">
-            
-
-            
-            
-            
-            
-              
-            
-
-            <img class="card-img-xs" src="/images/sections/projects/spotify_hu9d479a9248019e7cff19207a4690a4e4_16892_24x24_fit_box_3.png" alt="Spotify UI and API Automation Framework" />
-            
-            
-            <h5 class="card-title mb-0">Spotify UI and API Automation Framework</h5>
-          </div>
-          <div class="sub-title">
-            <span>Developer</span>
-            <span>March 2021 - Present</span>
-          </div>
-        </div>
-      </a>
-      <div class="card-body text-justify pt-1 pb-1">
-        <p>Java automation framework using Cucumber-JUnit with Selenium Webdriver and Maven for dependency management</p>
-        
-        <div class="project-card-footer">
-          
-            <div class="project-tags-holder">
-              
-                  <span class="badge btn-info">
-                    Academic
-                  </span>
-              
-                  <span class="badge btn-info">
-                    Hobby
-                  </span>
-              
-                  <span class="badge btn-info">
-                    Automation
-                  </span>
-              
-            </div>
-          
-          <div class="project-btn-holder">
-            
-            <a
-              class="github-button-inactive project-btn"
-              href="https://github.com/Stitts5401/spotifyScripts"
-              data-icon="octicon-standard"
-              data-show-count="true"
-              aria-label="Star Spotify UI and API Automation Framework"
-              >Star</a
-            >
-            
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
       
         <div
   class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
@@ -1205,71 +1272,6 @@ if (!doNotTrack) {
               data-icon="octicon-standard"
               data-show-count="true"
               aria-label="Star Personal Resume Website"
-              >Star</a
-            >
-            
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-      
-        <div
-  class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
-  data-category='all, Academic,Hobby'
->
-  <div class="card mt-1">
-    <div class="card">
-      <a class="card-header" href="https://github.com/Stitts5401/Tic-Tac-Toe_React.Js_project" target="_blank" rel="noopener">
-        <div>
-          <div class="d-flex">
-            
-
-            
-            
-            
-            
-              
-            
-
-            <img class="card-img-xs" src="/images/sections/projects/no-code_hu4f8e3bd6f48fe70fd2c0a87e633d1446_45899_24x24_fit_box_3.png" alt="React.Js Tic-Tac-Toe" />
-            
-            
-            <h5 class="card-title mb-0">React.Js Tic-Tac-Toe</h5>
-          </div>
-          <div class="sub-title">
-            <span>Front-End Developer</span>
-            <span>may 2021 - Present</span>
-          </div>
-        </div>
-      </a>
-      <div class="card-body text-justify pt-1 pb-1">
-        <p>First dive into react.Js try it out! <a href="http://jadenstittsworth.com/Tic-Tac-Toe_React.Js_project/">http://jadenstittsworth.com/Tic-Tac-Toe_React.Js_project/</a></p>
-        
-        <div class="project-card-footer">
-          
-            <div class="project-tags-holder">
-              
-                  <span class="badge btn-info">
-                    Academic
-                  </span>
-              
-                  <span class="badge btn-info">
-                    Hobby
-                  </span>
-              
-            </div>
-          
-          <div class="project-btn-holder">
-            
-            <a
-              class="github-button-inactive project-btn"
-              href="https://github.com/Stitts5401/Tic-Tac-Toe_React.Js_project"
-              data-icon="octicon-standard"
-              data-show-count="true"
-              aria-label="Star React.Js Tic-Tac-Toe"
               >Star</a
             >
             
@@ -1346,6 +1348,140 @@ if (!doNotTrack) {
 </div>
 
       
+        <div
+  class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
+  data-category='all, Academic,Hobby,Automation'
+>
+  <div class="card mt-1">
+    <div class="card">
+      <a class="card-header" href="https://github.com/Stitts5401/spotifyScripts" target="_blank" rel="noopener">
+        <div>
+          <div class="d-flex">
+            
+
+            
+            
+            
+            
+              
+            
+
+            <img class="card-img-xs" src="/images/sections/projects/spotify_hu9d479a9248019e7cff19207a4690a4e4_16892_24x24_fit_box_3.png" alt="Spotify UI and API Automation Framework" />
+            
+            
+            <h5 class="card-title mb-0">Spotify UI and API Automation Framework</h5>
+          </div>
+          <div class="sub-title">
+            <span>Developer</span>
+            <span>March 2021 - Present</span>
+          </div>
+        </div>
+      </a>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p>Java automation framework using Cucumber-JUnit with Selenium Webdriver and Maven for dependency management</p>
+        
+        <div class="project-card-footer">
+          
+            <div class="project-tags-holder">
+              
+                  <span class="badge btn-info">
+                    Academic
+                  </span>
+              
+                  <span class="badge btn-info">
+                    Hobby
+                  </span>
+              
+                  <span class="badge btn-info">
+                    Automation
+                  </span>
+              
+            </div>
+          
+          <div class="project-btn-holder">
+            
+            <a
+              class="github-button-inactive project-btn"
+              href="https://github.com/Stitts5401/spotifyScripts"
+              data-icon="octicon-standard"
+              data-show-count="true"
+              aria-label="Star Spotify UI and API Automation Framework"
+              >Star</a
+            >
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+        <div
+  class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
+  data-category='all, Academic,Hobby'
+>
+  <div class="card mt-1">
+    <div class="card">
+      <a class="card-header" href="https://github.com/Stitts5401/Tic-Tac-Toe_React.Js_project" target="_blank" rel="noopener">
+        <div>
+          <div class="d-flex">
+            
+
+            
+            
+            
+            
+              
+            
+
+            <img class="card-img-xs" src="/images/sections/projects/no-code_hu4f8e3bd6f48fe70fd2c0a87e633d1446_45899_24x24_fit_box_3.png" alt="React.Js Tic-Tac-Toe" />
+            
+            
+            <h5 class="card-title mb-0">React.Js Tic-Tac-Toe</h5>
+          </div>
+          <div class="sub-title">
+            <span>Front-End Developer</span>
+            <span>may 2021 - Present</span>
+          </div>
+        </div>
+      </a>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p>First dive into react.Js try it out! <a href="http://jadenstittsworth.com/Tic-Tac-Toe_React.Js_project/">http://jadenstittsworth.com/Tic-Tac-Toe_React.Js_project/</a></p>
+        
+        <div class="project-card-footer">
+          
+            <div class="project-tags-holder">
+              
+                  <span class="badge btn-info">
+                    Academic
+                  </span>
+              
+                  <span class="badge btn-info">
+                    Hobby
+                  </span>
+              
+            </div>
+          
+          <div class="project-btn-holder">
+            
+            <a
+              class="github-button-inactive project-btn"
+              href="https://github.com/Stitts5401/Tic-Tac-Toe_React.Js_project"
+              data-icon="octicon-standard"
+              data-show-count="true"
+              aria-label="Star React.Js Tic-Tac-Toe"
+              >Star</a
+            >
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
     </div>
   </div>
 </div>
@@ -1360,7 +1496,7 @@ if (!doNotTrack) {
         
       
         
-          <div class="container-fluid section-holder d-flex bg-white">
+          <div class="container-fluid section-holder d-flex bg-dimmed">
             
 
   
@@ -1381,11 +1517,11 @@ if (!doNotTrack) {
       <h5 class="card-title mb-0">Machine Learning</h5>
       <div class="sub-title">
         <span><a href="https://www.coursera.org" title="Coursera" target="_blank" rel="noopener">Coursera</a></span>
-        <span class="ml-2">Jun 2020 - Jan 2021</span>
+        <span class="ml-2"></span>
       </div>
     </div>
     <div class="card-body">
-      <p>This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics include: (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI).</p>
+      <p></p>
     </div>
     <div class="card-footer">
       
@@ -1400,11 +1536,11 @@ if (!doNotTrack) {
       <h5 class="card-title mb-0">Python</h5>
       <div class="sub-title">
         <span><a href="https://www.manning.com/books/the-quick-python-book-third-edition" title="The Quick Python Book" target="_blank" rel="noopener">The Quick Python Book</a></span>
-        <span class="ml-2"> Jan 2021 - present</span>
+        <span class="ml-2"></span>
       </div>
     </div>
     <div class="card-body">
-      <p>This course is a complete guide to master the SDIs. It is created by hiring managers who’ve been working at Google, Facebook, Microsoft, and Amazon. We&rsquo;ve carefully chosen a set of questions that have not only been repeatedly asked at top companies, but also provide a thorough experience to handle any system design problem.</p>
+      <p></p>
     </div>
     <div class="card-footer">
       
@@ -1419,11 +1555,11 @@ if (!doNotTrack) {
       <h5 class="card-title mb-0">The Apache Hadoop software library</h5>
       <div class="sub-title">
         <span><a href="https://www.udemy.com/course/the-ultimate-hands-on-hadoop-tame-your-big-data/" title="Udemy" target="_blank" rel="noopener">Udemy</a></span>
-        <span class="ml-2">Jan 2021 - preset</span>
+        <span class="ml-2"></span>
       </div>
     </div>
     <div class="card-body">
-      <p>The world of Hadoop and &ldquo;Big Data&rdquo; can be intimidating - hundreds of different technologies with cryptic names form the Hadoop ecosystem. With this Hadoop tutorial, you&rsquo;ll not only understand what those systems are and how they fit together - but you&rsquo;ll go hands-on and learn how to use them to solve real business problems! Learn and master the most popular big data technologies in this comprehensive course, taught by a former engineer and senior manager from Amazon and IMDb. We&rsquo;ll go way beyond Hadoop itself, and dive into all sorts of distributed systems you may need to integrate with.</p>
+      <p></p>
     </div>
     <div class="card-footer">
       
@@ -1435,14 +1571,71 @@ if (!doNotTrack) {
         <div class="col-md-12 col-lg-6 p-2">
   <div class="card mt-3">
     <div class="card-header">
-      <h5 class="card-title mb-0">Introduction to AI, Machine Learning and Python basics</h5>
+      <h5 class="card-title mb-0">Elequent JavaScript</h5>
       <div class="sub-title">
-        <span><a href="https://www.udemy.com/course/introduction-to-ai-machine-learning-and-python-basics/?utm_source=adwords&amp;utm_medium=udemyads&amp;utm_campaign=MachineLearning_v.PROF_la.EN_cc.US_ti.6594&amp;utm_content=deal4584&amp;utm_term=_._ag_79286111246_._ad_436603255192_._kw__._de_c_._dm__._pl__._ti_dsa-774930044809_._li_9005886_._pd__._&amp;matchtype=b&amp;gclid=CjwKCAjw07qDBhBxEiwA6pPbHiMpmmW1ffThVAqMZSPmvSwW0cJOyxoVV6YzNVkIrbTWrjJpDKYU2xoCYq0QAvD_BwE" title="Udemy" target="_blank" rel="noopener">Udemy</a></span>
-        <span class="ml-2">Jun 2020 - Jan 2021</span>
+        <span><a href="https://eloquentjavascript.net/" title="Marijn Haverbeke" target="_blank" rel="noopener">Marijn Haverbeke</a></span>
+        <span class="ml-2"></span>
       </div>
     </div>
     <div class="card-body">
-      <p>Artificial Intelligence has already become an indispensable part of our everyday life, whether when we browse the Internet, shop online, watch videos and images on social networks, and even when we drive a car or use our smartphones. AI is widely used in medicine, sales forecasting, space industry and construction. Since we are surrounded by AI technologies everywhere, we need to understand how these technologies work. And for such understanding at a basic level, it is not necessary to have a technical or IT education.</p>
+      <p></p>
+    </div>
+    <div class="card-footer">
+      
+    </div>
+  </div>
+</div>
+
+      
+        <div class="col-md-12 col-lg-6 p-2">
+  <div class="card mt-3">
+    <div class="card-header">
+      <h5 class="card-title mb-0">Spring Framework</h5>
+      <div class="sub-title">
+        <span><a href="https://spring.io/" title="Spring.io" target="_blank" rel="noopener">Spring.io</a></span>
+        <span class="ml-2"></span>
+      </div>
+    </div>
+    <div class="card-body">
+      <p></p>
+    </div>
+    <div class="card-footer">
+      
+    </div>
+  </div>
+</div>
+
+      
+        <div class="col-md-12 col-lg-6 p-2">
+  <div class="card mt-3">
+    <div class="card-header">
+      <h5 class="card-title mb-0">Html and CSS Book</h5>
+      <div class="sub-title">
+        <span><a href="https://www.htmlandcssbook.com/" title="https://www.htmlandcssbook.com/" target="_blank" rel="noopener">https://www.htmlandcssbook.com/</a></span>
+        <span class="ml-2"></span>
+      </div>
+    </div>
+    <div class="card-body">
+      <p></p>
+    </div>
+    <div class="card-footer">
+      
+    </div>
+  </div>
+</div>
+
+      
+        <div class="col-md-12 col-lg-6 p-2">
+  <div class="card mt-3">
+    <div class="card-header">
+      <h5 class="card-title mb-0">Full-Stack Engineer</h5>
+      <div class="sub-title">
+        <span><a href="https://www.codecademy.com/learn/paths/full-stack-engineer-career-path" title="Course Summary" target="_blank" rel="noopener">Course Summary</a></span>
+        <span class="ml-2"></span>
+      </div>
+    </div>
+    <div class="card-body">
+      <p></p>
     </div>
     <div class="card-footer">
       
@@ -1463,7 +1656,7 @@ if (!doNotTrack) {
         
       
         
-          <div class="container-fluid section-holder d-flex bg-dimmed">
+          <div class="container-fluid section-holder d-flex bg-white">
             
 
   
@@ -1523,17 +1716,17 @@ if (!doNotTrack) {
 
 <div 
   class="achievement-entry text-center"
-  style="background-image: url('/images/sections/achievements/civic_hud56a49544457a0d16d6264f99c708ec7_4141283_0x300_resize_q75_box.jpg');"
+  style="background-image: url('/images/sections/achievements/MR2_hu3d54354fc4beb80e0b47c54b0150edff_6698174_0x300_resize_q75_box.JPEG');"
 >
   <i class="fas fa-search-plus" id="enlarge-icon"></i>
   <h4 class="title" id="achievement-title">Goals</h4>
   <div class="caption hidden col-lg-6 text-left" id="caption">
     <h4>Goals</h4>
-    <p>Luckily had the means to help to get my own civic, However my ambitions are to learn and improve myself and my skills professionally to be able to buy something even more amazing on my own!</p>
+    <p>My ambitions are to learn and improve myself and my skills professionally to be able to get into real-estate! I want to park my first big investment in a nice driveway.</p>
     
   </div>
-  <span style="background-image: url('/images/sections/achievements/civic_hud56a49544457a0d16d6264f99c708ec7_4141283_0x300_resize_q75_box.jpg');" class="d-none" id="SmallImage" active="true"></span>
-<span  style="background-image: url('/images/sections/achievements/civic_hud56a49544457a0d16d6264f99c708ec7_4141283_0x1500_resize_q75_box.jpg');" class="d-none" id="LargeImage"></span>
+  <span style="background-image: url('/images/sections/achievements/MR2_hu3d54354fc4beb80e0b47c54b0150edff_6698174_0x300_resize_q75_box.JPEG');" class="d-none" id="SmallImage" active="true"></span>
+<span  style="background-image: url('/images/sections/achievements/MR2_hu3d54354fc4beb80e0b47c54b0150edff_6698174_0x1500_resize_q75_box.JPEG');" class="d-none" id="LargeImage"></span>
 </div>
 
     
@@ -1551,17 +1744,17 @@ if (!doNotTrack) {
 
 <div 
   class="achievement-entry text-center"
-  style="background-image: url('/images/sections/achievements/league_hu48cc22606bc2e4c048328c569d24f3e9_492369_0x300_resize_box_3.png');"
+  style="background-image: url('/images/sections/achievements/league_hu1830543885843bf48c3ad6ef6f40d04f_172408_0x300_resize_q75_box.jpg');"
 >
   <i class="fas fa-search-plus" id="enlarge-icon"></i>
   <h4 class="title" id="achievement-title">Hobbies</h4>
   <div class="caption hidden col-lg-6 text-left" id="caption">
     <h4>Hobbies</h4>
-    <p>Pretty much my only hobby besides my car and helping my friends build computers. In the course of my league career I grew Duck Dynasty tier beared climbing to the top .01% of players, mastering my team skills, coordination, and communication.</p>
+    <p>Pretty much my only hobby besides working on cars. In the course of my league career I grew Duck Dynasty tier beared climbing to the top .01% of players, mastering my team skills, coordination, and communication.</p>
     
   </div>
-  <span style="background-image: url('/images/sections/achievements/league_hu48cc22606bc2e4c048328c569d24f3e9_492369_0x300_resize_box_3.png');" class="d-none" id="SmallImage" active="true"></span>
-<span  style="background-image: url('/images/sections/achievements/league_hu48cc22606bc2e4c048328c569d24f3e9_492369_0x1500_resize_box_3.png');" class="d-none" id="LargeImage"></span>
+  <span style="background-image: url('/images/sections/achievements/league_hu1830543885843bf48c3ad6ef6f40d04f_172408_0x300_resize_q75_box.jpg');" class="d-none" id="SmallImage" active="true"></span>
+<span  style="background-image: url('/images/sections/achievements/league_hu1830543885843bf48c3ad6ef6f40d04f_172408_0x1500_resize_q75_box.jpg');" class="d-none" id="LargeImage"></span>
 </div>
 
     
@@ -1579,17 +1772,17 @@ if (!doNotTrack) {
 
 <div 
   class="achievement-entry text-center"
-  style="background-image: url('/images/sections/achievements/rascal_hu5ce857099066b1413b0e1120f5aaa043_620625_0x300_resize_q75_box.jpg');"
+  style="background-image: url('/images/sections/achievements/rascal_hu0bd69015bfdc6662992764a3dfa01dda_461604_0x300_resize_box_3.png');"
 >
   <i class="fas fa-search-plus" id="enlarge-icon"></i>
-  <h4 class="title" id="achievement-title">Child</h4>
+  <h4 class="title" id="achievement-title"></h4>
   <div class="caption hidden col-lg-6 text-left" id="caption">
-    <h4>Child</h4>
-    <p>My little buddy keeps me sain while I study all day. At this point she could probably answer my interview questions for me with how much I have read them to her for practice.</p>
+    <h4></h4>
+    <p>My little buddy keeps me sain while work from home.</p>
     
   </div>
-  <span style="background-image: url('/images/sections/achievements/rascal_hu5ce857099066b1413b0e1120f5aaa043_620625_0x300_resize_q75_box.jpg');" class="d-none" id="SmallImage" active="true"></span>
-<span  style="background-image: url('/images/sections/achievements/rascal_hu5ce857099066b1413b0e1120f5aaa043_620625_0x1500_resize_q75_box.jpg');" class="d-none" id="LargeImage"></span>
+  <span style="background-image: url('/images/sections/achievements/rascal_hu0bd69015bfdc6662992764a3dfa01dda_461604_0x300_resize_box_3.png');" class="d-none" id="SmallImage" active="true"></span>
+<span  style="background-image: url('/images/sections/achievements/rascal_hu0bd69015bfdc6662992764a3dfa01dda_461604_0x1500_resize_box_3.png');" class="d-none" id="LargeImage"></span>
 </div>
 
     
@@ -1687,9 +1880,17 @@ if (!doNotTrack) {
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="https://jadenstittsworth.com#skills">Skills</a>
+                  <a class="smooth-scroll" href="https://jadenstittsworth.com#skills"></a>
                 </li>
               
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://jadenstittsworth.com#experiences">Experiences</a>
+                </li>
               
               
                 
@@ -1799,6 +2000,11 @@ if (!doNotTrack) {
 <script type="text/javascript" src="/js/navbar.js"></script>
 <script type="text/javascript" src="/js/plyr.js"></script>
 <script type="text/javascript" src="/js/main.js"></script>
+
+
+
+<script type="text/javascript" src="/js/darkreader.js"></script>
+<script type="text/javascript" src="/js/darkmode-darkreader.js"></script>
 
 
 

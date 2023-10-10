@@ -21,6 +21,8 @@
 
 
 
+<link rel="stylesheet" href="/css/colortheme/colortheme.css"/>
+
 
 
 
@@ -42,7 +44,6 @@
 <meta property="og:url" content="https://jadenstittsworth.com/notes/" />
 
 
-
     
     
   <link
@@ -59,18 +60,17 @@
 
 
     
-<script type="application/javascript">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5GE9QY8QQ2"></script>
+<script>
 var doNotTrack = false;
 if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-120740027-1', 'auto');
-	
-	ga('send', 'pageview');
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-5GE9QY8QQ2', { 'anonymize_ip': false });
 }
 </script>
+
 
 </head>
 
@@ -87,16 +87,6 @@ if (!doNotTrack) {
   
 
 
-  
-
-
-
-
-  
-  
-    
-  
-  
 
 
 
@@ -105,6 +95,8 @@ if (!doNotTrack) {
     
   
   
+
+
 
 
 <nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
@@ -124,6 +116,27 @@ if (!doNotTrack) {
       <ul class="navbar-nav ml-auto">
       
       
+        <li class="nav-item dropdown">
+
+<div id="theme-initialization" style="display: none;"
+  default-theme="system"></div>
+<a class="nav-link dropdown-toggle"  href="#" id="themeSelector" role="button"
+  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <img id="navbar-theme-icon-svg" src="/icons/moon-svgrepo-com.svg" width=20>
+</a>
+<div class="dropdown-menu dropdown-menu-icons-only" aria-labelledby="themeSelector">
+  <a class="dropdown-item nav-link" href="#" onclick="enableLightTheme()">
+    <img class="menu-icon-center" src="/icons/sun-svgrepo-com.svg" width=20>
+  </a>
+  <a class="dropdown-item nav-link" href="#" onclick="enableDarkTheme()">
+    <img class="menu-icon-center" src="/icons/moon-svgrepo-com.svg" width=20>
+  </a>
+  <a class="dropdown-item nav-link" href="#" onclick="useSystemTheme()">
+    <img class="menu-icon-center" src="/icons/computer-svgrepo-com.svg" width=20>
+  </a>
+</div>
+</li>
+      
       </ul>
     </div>
   </div>
@@ -131,8 +144,6 @@ if (!doNotTrack) {
   
     <img src="/images/site/main-logo_hue298048fb3b93afb5b9c93999f030d02_2048_42x0_resize_box_3.png" class="d-none" id="main-logo" alt="Logo">
   
-  
-    <img src="/images/site/inverted-logo_hue298048fb3b93afb5b9c93999f030d02_2048_42x0_resize_box_3.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
   
 </nav>
 
@@ -296,9 +307,17 @@ if (!doNotTrack) {
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="https://jadenstittsworth.com#skills">Skills</a>
+                  <a class="smooth-scroll" href="https://jadenstittsworth.com#skills"></a>
                 </li>
               
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://jadenstittsworth.com#experiences">Experiences</a>
+                </li>
               
               
                 
@@ -408,6 +427,11 @@ if (!doNotTrack) {
 <script type="text/javascript" src="/js/navbar.js"></script>
 <script type="text/javascript" src="/js/plyr.js"></script>
 <script type="text/javascript" src="/js/main.js"></script>
+
+
+
+<script type="text/javascript" src="/js/darkreader.js"></script>
+<script type="text/javascript" src="/js/darkmode-darkreader.js"></script>
 
 
 
