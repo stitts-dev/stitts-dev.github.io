@@ -18,20 +18,7 @@ designation: Software Developer
 resume: "files/Resume-10_23.pdf"
 
 # a summary about you
-summary: "Experienced Software Professional Transitioning to Software Development
-
-With a robust background in software testing and a current commitment to solidifying my skills in a Fullstack bootcamp, I am eager to leverage my diverse skill set in my transition to a software development role. Having previously served as a developer, I possess valuable experience that positions me for success in this dynamic field.
-
-My journey in software development began with a strong foundation in Java and has evolved to encompass expertise in Java 8+, Spring Framework, including Spring Boot, and Bootstrap, enhancing my full-stack capabilities.
-
-Throughout my career, I've made significant contributions to software tool development, facilitating access, reservation, and manipulation of test data for over 50 QA Engineers. Collaborating closely with the Product team, I've crafted productivity-enhancing tools that resulted in a remarkable 15% boost in efficiency.
-
-In addition to my development skills, my testing experience spans feature analysis, UI test automation, and active participation in web and mobile testing projects using Appium. I've demonstrated leadership by overseeing testing efforts for a team of five developers and successfully transitioning a product from Kanban to Agile methodology.
-
-My portfolio and demo projects serve as tangible evidence of my ability to design and implement automation frameworks for web-based applications, elevating test coverage and reducing customer-reported bugs. My proficiency in both development and testing positions me as a versatile asset in the software development landscape.
-
-I am enthusiastic about merging my testing insights with my development skills to craft robust, high-quality software solutions. I eagerly anticipate contributing my expertise to innovative projects as I continue my journey in the world of software development."
-
+summary: "Based in Pittsburgh, PA, I am a Full-Stack Developer with a keen expertise in the Spring Ecosystem. As a seasoned Software Tester and Developer, my proficiency spans Java, .Net, C#, and Spring. My strong testing background combined with my development skills positions me uniquely for roles that require a deep understanding of both testing and full-stack development using the Spring platform."
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
