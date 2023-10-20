@@ -14,16 +14,26 @@ buttons:
   filter: "All"
 - name: Academic
   filter: "Academic"
-- name: Hobby
-  filter: "Hobby"
+- name: Business
+  filter: "Business"
+- name: Training
+  filter: "Training"
 
 # your projects
 projects:
 
+- name: Contracting assistance app
+  logo: /images/sections/projects/JMTLogo.svg
+  role: Founder - FullStack Developer
+  timeline: "Oct 2023 - Present"
+  repo: https://github.com/Stitts5401/MicroServices
+  summary: "This is a concept project but will be deployed to a production environment. The idea is to solve issues like Angies list. The current tech-stack is Spring-Webflux, Thymleaf, Redis, Spring-sessions, mysql, R2DBC, Spring-security. It's currently a monolith and will be quickly refactored to microservice pattern."
+  tags: ["Business","Training"]
+
 - name: Personal Resume Website
   logo: /images/sections/projects/resume.png
   role: Developer
-  timeline: "April 2021 - Present"
+  timeline: "April 2021 - Ongoing"
   repo: https://github.com/Stitts5401/stitts5401.github.io
   summary: "Personal Portfolio using Hugo-toha theme. GitHub Actions is used for CI/CD. Created to help display eagerness to learn new unfamiliar languages and frameworks as well as my personality!"
   tags: ["Academic", "Professionalism"]
@@ -31,11 +41,11 @@ projects:
 - name: Registration App demo
   logo: /images/sections/projects/no-code.png
   role: Back-End Developer
-  timeline: "may 2021 - Present"
+  timeline: "May 2021 - May 2021"
   repo: https://github.com/Stitts5401/demo # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary:  "This project focuses on creating a back-end application that will register users into a database using Spring Boot Data Jpa, starter email, starter security, starter web, Spring security, Spring test, PostgresSql, and Lombok."
-  tags: ["Academic", "Hobby"]
+  tags: ["Academic"]
 #- name: Hugo-Site github Pages
 #  logo: /images/sections/projects/hugosite.png
 #  role: Developer
@@ -44,15 +54,6 @@ projects:
 #  summary: Hugo + Toha Theme using gitHub Actions workflow for automated deployments for Personal Resume Website.
 #  tags: ["Academic", "Hobby"]
 
-- name: Spotify UI and API Automation Framework
-  logo: /images/sections/projects/spotify.png
-  role: Developer
-  timeline: "March 2021 - Present"
-  repo: https://github.com/Stitts5401/spotifyScripts # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: "Java automation framework using Cucumber-JUnit with Selenium Webdriver and Maven for dependency management"
-  tags: ["Academic", "Hobby", "Automation"]
-
 - name: React.Js Tic-Tac-Toe
   logo: /images/sections/projects/no-code.png
   role: Front-End Developer
@@ -60,4 +61,4 @@ projects:
   repo: https://github.com/Stitts5401/Tic-Tac-Toe_React.Js_project # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary:  "First dive into react.Js try it out! http://jadenstittsworth.com/Tic-Tac-Toe_React.Js_project/"
-  tags: ["Academic", "Hobby"]
+  tags: ["Academic"]

@@ -12,23 +12,15 @@ hideTitle: true
 # Give a summary of you each skill in the summary section.
 skills:
 
-
 - name: Java
   logo: /images/sections/skills/java.png
   summary: "Know high-level Java programming. Follow all best practices for clean and concise code. I've used this for problem solving as well as writing many Automation testing Frameworks and many handy utility packages."
   url: "https://www.java.com/en/"
-
-- name: Spring Boot
+- name: Spring Ecosystems
   logo: /images/sections/skills/spring_boot-icon.png
-  summary: "Strong understanding and plenty of experience working within Spring Frameworks. I'm comfortable creating mvc controllers-implementing services adding schedulers and much more. I have a good understanding of the tags."
+  summary: "Strong understanding and plenty of experience working within Spring Frameworks. Im an experience Java developer capable of making full-stack application utilizing spring for a quick time to market."
   url: "https://spring.io/"
-
-- name: Katare
-  logo: /images/sections/skills/karate.png
-  summary: "I've implemented karate frameworks into multiple projects from scratch in order to test both Front and Back-End. Work with daily to introduce test and expand our test coverage."
-  url: "https://aws.amazon.com/"
-
-- name: Selenium WebDriver
+- name: Selenium
   logo: /images/sections/skills/selenium-icon.png
   summary:  "Using Selenium Webdriver with Cucumber-JUnit for UI testing in my frameworks. Experience with parallel testing using Selenium Grid. Use things like appium for mobile testing."
   url: "https://www.selenium.dev/"
@@ -40,31 +32,27 @@ skills:
   logo: /images/sections/skills/jenkins-icon.png
   summary: "Created Jenkins Jobs to have test suite such as: Regression and Smoke run automatically at specific time's and whenever developers push codes to specific branch. Allowing to fully automate deployment if tests checkout."
   url: "https://www.jenkins.io/"
-
-
-
+- name: Karate
+  logo: /images/sections/skills/karate.png
+  summary: "I've implemented karate frameworks into multiple projects from scratch in order to test both Front and Back-End. Work with daily to introduce test and expand our test coverage."
+  url: "https://aws.amazon.com/"
 - name: Cucumber / Gherkin
   logo: /images/sections/skills/cucumber.png
   summary: "Extensive experience working with BDD Testing frameworks. Writing features, Feature Runners, Step Definition and User-Stories for cucumber based projects. Utilizing things like selenium JDBC and REST Assured."
   url: "https://cucumber.io/"
-
 - name: Microsoft 365
   logo: /images/sections/skills/microsoft.png
   summary: "Used tools like Excel for personal projects as well as for testing Bulk Data within Java test cases. Additionally, I'm familiar with Teams and Outlook for day to day work!"
   url: "https://www.office.com/"
-
-
 - name: Jira
   logo: /images/sections/skills/jira.png
   summary:  "Experienced using Jira tools to write detailed User-Stories as well as track and report bugs. I have introduced and setup Jira Xray into karate frameworks."
   url: "https://www.atlassian.com/software/jira"
-
 - name: Git
   logo: /images/sections/skills/git.png
   summary: "Experienced with Git-based development. I have plenty of experience and knowledge of best practices."
   url: "https://git-scm.com/"
-
-- name: SQL Test
+- name: SQL
   logo: /images/sections/skills/sql.png
   summary: "Know all Fundamentals of writing and creating queries from a database. As well as, writing automation scripts using JDBC."
   url: "https://www.mysql.com/"
