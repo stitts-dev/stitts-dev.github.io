@@ -35,7 +35,7 @@ experiences:
     # company overview
     overview: Create tools and services which allow other teams to access, reserve, and manipulate test data.
   positions:
-  - designation: Software Developer / Lead Test-Analyst
+  - designation: Software Developer
     start: Mar 2019
     end: Nov 2021
     # don't provide end date if you are currently working there. It will be replaced by "Present"
