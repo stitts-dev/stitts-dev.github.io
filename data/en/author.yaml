@@ -2,18 +2,25 @@
 name: "Jaden Stittsworth"
 nickname: "Jaden"
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Hi, I am"
+greeting: "Hi, I'm"
 image: "images/author/jaden.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
-  email: "Jadenrs10@gmail.com"
-  phone: "+4125274078"
+  email: "Jaden@Stitts.dev"
 
 # some summary about what you do
 summary:
-
-  - Im a Problem solve.
-  - Fullstack Developement.
-  - Test Automate.
-  - Spring Ecosystem Fanatic.
-  - Personal Development!
+  - Fullstack Developer
+  - Spring Ecosystem
+  - Engineering
+  - Math
+  - SQL
+  - Angular
+  - JavaScript
+  - Google Cloud Platform
+  - FireBase
+  - Jenkins
+  - Cucumber
+  - Selenium
+  - JUnit
+  - Mockito
