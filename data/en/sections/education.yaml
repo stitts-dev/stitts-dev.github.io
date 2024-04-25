@@ -10,25 +10,12 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Java Full-Stack Developer Bootcamp. Focus points-  Java Core, Spring, Docker, MySql, JUnit, Mockito, and Bootstrap.
+- name: Engaging in an intensive, hands-on training program focused on developing skills in Java and modern web technologies, including HTML, CSS, JavaScript, Angular, and React.
   icon: fa-university
-  timeframe: Jul 2023-Present
+  timeframe: 2017-2018
   institution:
-    name: CYDEO Coding Schools
+    name: CYDEO Full-Stack Boot camp
 
-- name: Java Full Stack automation developer(SDET) program. Focused on training IT professionals from the ground up. Started basics of Java to Selenium to SQL and on. This program produces some of the sharpest Test Automation Engineers in the market.
-  icon: fa-university
-  timeframe: 2020-2021
-  institution:
-    name: Cybertek Coding Schools
-
-
-- name: Was extremely passionate about my AP Computer Science and CISCO classes. Knew very early on this would be my career. Mt. Lebanon provided an unmatched education that prepared me to start my journey as early as possible. Was able to graduate early and begin my work in my boot camp.
-  icon: fa-graduation-cap
-  timeframe: 2016-2020
-  institution:
-    name: Mount Lebanon Highschool
-    url: "#"
 
 #  publications: #(optional)
 #  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.

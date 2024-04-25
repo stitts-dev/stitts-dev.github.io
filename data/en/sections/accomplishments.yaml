@@ -12,21 +12,6 @@ section:
 # Your accomplishments
 accomplishments:
 
-- name: Machine Learning
-  organization:
-    name: Coursera
-    url: https://www.coursera.org
-
-- name: Python
-  organization:
-    name: The Quick Python Book
-    url: https://www.manning.com/books/the-quick-python-book-third-edition
-
-- name: The Apache Hadoop software library
-  organization:
-    name: Udemy
-    url: https://www.udemy.com/course/the-ultimate-hands-on-hadoop-tame-your-big-data/
-
 - name: Elequent JavaScript
   organization:
     name: Marijn Haverbeke

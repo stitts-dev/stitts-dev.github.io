@@ -16,47 +16,50 @@ experiences:
     location: Pittsburgh, PA - remote
     overview: Ensure smooth development process working hand in hand with developers.
   positions:
-      - designation: Software Developer in Test
-        start: Nov 2022
+      - designation: Full-stack Developer
+        start: Nov 2021
         end: Present
         responsibilities:
-          - Implemented refactoring techniques on the existing test automation suite, improving code maintainability by 30%.
-          - Collaborated with cross-functional teams to identify and prioritize critical test cases for inclusion in the automation suite, resulting in a 20% increase in overall test coverage.
-          - Engaged in a dedicated self-study of C#, Azure cloud services, ASP.NET, and Angular to deepen my knowledge and improve my proficiency in application testing, enhancing my ability to deliver high-quality results.
-          - Worked closely with developers to create automated tests for new features, resulting in a 50% reduction in manual testing efforts and faster time-to-market.
+          - Collaborated with UX/UI designers to enhance and implement responsive, user-friendly interfaces.
+          - Designed, developed, and maintained critical business applications using Angular, employing industry best practices and design patterns.
+          - Wrote clean, modular, and testable code using TypeScript, HTML, and CSS.
+          - Integrated and maintained RESTful APIs and services, contributing to efficient front-end to back-end communication.
+          - Collaborated with cross-functional teams to solve complex problems and deliver products to customers on time.
+          - Optimized application performance and scalability using advanced techniques like lazy loading, caching, and code-splitting.
+
 
 - company:
-    name: Tata Consultant Agency (PNC Bank) - FTE
+    name: PNC Bank
     url: "https://www.pnc.com/en/about-pnc.html?lnksrc=topnav"
     location: Pittsburgh, PA - remote
     # company overview
     overview: Create tools and services which allow other teams to access, reserve, and manipulate test data.
   positions:
   - designation: Software Developer / Lead Test-Analyst
-    start: May 2021
-    end: Nov 2022
+    start: Mar 2019
+    end: Nov 2021
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Developing & maintaining software tools used by over 50 QA Engineers, allowing them to access, reserve, and manipulate test data.
-    - Developing a JSwing application used by over 100 employees daily, saving the company an average of 2 hours per day or more.
-    - Collaborating with the Product team to understand requirements & develop tools, which is increasing productivity by 15% and growing.
-    - Leading the Testing efforts of a team of 5 developers responsible for testing products before release.
-    - Successfully migrated product from Kanban to Agile methodology, ensuring a smooth transition and no loss in productivity.
-    - Evaluated user stories and participated in Sprint Planning, Review Sessions & Scrum Meetings
-    - Developed Test Scenarios, Test Cases, Test Data, and Test Reports.
+    - Developed and maintained robust software tools using Java and the Spring Ecosystem, enhancing productivity across development and testing teams.
+    - Led the design and implementation of new features, significantly improving development efficiency and reducing time-to-market.
+    - Actively participated in Agile ceremonies, including sprint planning and review sessions, ensuring timely delivery of software products.
+    - Utilized Jenkins to automate build and deployment processes, enhancing continuous integration and continuous delivery efforts.
+
 
 - company:
     name: SysLibrary
     location: Pittsburgh, PA - remote
-    overview: Redesigned and implemented a new Automation Framework for web-based applications and developed Cucumber features to test the functionality of the application using Selenium WebDriver and TestNG.
+    overview: Intro to the tech industry learned a lot and contributed to a large project in the Spring Ecosystem
   positions:
-  - designation: Software Quality Assurance Engineer
-    start: Dec 2020
-    end: May 2021
+  - designation: Software Development Intern
+    start: Dec 2017
+    end: May 2018
     responsibilities:
-    - Analyzed features and requirements to write/automate UI Tests for a web application with 10 million users, which increased test coverage by 20%.
-    - Involved in both Web and Mobile testing projects using Appium. Wrote over 1000 test cases, which reduced the number of production bugs by 50%.
-    - Participated in Sprint Planning, Review Sessions & Scrum Meetings to provide input on achievable deliverables for each sprint.
-    - Utilized Jenkins to automate the execution of Smoke Test several times a day, confirming essential functionalities worked as expected.
+    - Participated in the development of a large-scale project leveraging the Spring Framework, focusing on building resilient and efficient backend services.
+    -  Collaborated closely with a team to design and implement feature enhancements, leading to a notable increase in application performance.
+    -  Employed Java and Spring best practices to ensure code quality and maintainability.
+    -  Utilized Thymeleaf for dynamic web views, enhancing the user experience by creating responsive and interactive web pages.
+    -  Engaged in behavior-driven development (BDD) with Cucumber to align development work with business objectives and ensure all stakeholders' needs were met.
+    -  Actively contributed to code reviews, offering insightful improvements and advocating for coding standards.

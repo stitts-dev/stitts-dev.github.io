@@ -11,48 +11,60 @@ hideTitle: true
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
+  # Coding Languages
+  - name: Java
+    logo: /images/sections/skills/java.png
+    summary: "Proficient in Java programming, adhering to best practices for clean, efficient, and concise code. Experienced in problem solving and creating Automation Testing Frameworks as well as utility packages."
+    url: "https://www.java.com/en/"
+  - name: JavaScript
+    logo: /images/sections/skills/javascript.png
+    summary: "Expertise in JavaScript, developing interactive and efficient web applications with modern JavaScript frameworks and libraries."
+    url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+  - name: SQL
+    logo: /images/sections/skills/sql.png
+    summary: "Strong foundation in SQL, capable of writing complex queries and automating database interactions using JDBC."
+    url: "https://www.mysql.com/"
 
-- name: Java
-  logo: /images/sections/skills/java.png
-  summary: "Know high-level Java programming. Follow all best practices for clean and concise code. I've used this for problem solving as well as writing many Automation testing Frameworks and many handy utility packages."
-  url: "https://www.java.com/en/"
-- name: Spring Ecosystems
-  logo: /images/sections/skills/spring_boot-icon.png
-  summary: "Strong understanding and plenty of experience working within Spring Frameworks. Im an experience Java developer capable of making full-stack application utilizing spring for a quick time to market."
-  url: "https://spring.io/"
-- name: Selenium
-  logo: /images/sections/skills/selenium-icon.png
-  summary:  "Using Selenium Webdriver with Cucumber-JUnit for UI testing in my frameworks. Experience with parallel testing using Selenium Grid. Use things like appium for mobile testing."
-  url: "https://www.selenium.dev/"
-- name: PostMan
-  logo: /images/sections/skills/postman.png
-  summary: "I've used postman's collection frameworks to write API test suites prior to deserialization and serialization tests within my Java Framework using REST Assured Libraries."
-  url: "https://www.postman.com/"
-- name: CI/CD
-  logo: /images/sections/skills/jenkins-icon.png
-  summary: "Created Jenkins Jobs to have test suite such as: Regression and Smoke run automatically at specific time's and whenever developers push codes to specific branch. Allowing to fully automate deployment if tests checkout."
-  url: "https://www.jenkins.io/"
-- name: Karate
-  logo: /images/sections/skills/karate.png
-  summary: "I've implemented karate frameworks into multiple projects from scratch in order to test both Front and Back-End. Work with daily to introduce test and expand our test coverage."
-  url: "https://aws.amazon.com/"
-- name: Cucumber / Gherkin
-  logo: /images/sections/skills/cucumber.png
-  summary: "Extensive experience working with BDD Testing frameworks. Writing features, Feature Runners, Step Definition and User-Stories for cucumber based projects. Utilizing things like selenium JDBC and REST Assured."
-  url: "https://cucumber.io/"
-- name: Microsoft 365
-  logo: /images/sections/skills/microsoft.png
-  summary: "Used tools like Excel for personal projects as well as for testing Bulk Data within Java test cases. Additionally, I'm familiar with Teams and Outlook for day to day work!"
-  url: "https://www.office.com/"
-- name: Jira
-  logo: /images/sections/skills/jira.png
-  summary:  "Experienced using Jira tools to write detailed User-Stories as well as track and report bugs. I have introduced and setup Jira Xray into karate frameworks."
-  url: "https://www.atlassian.com/software/jira"
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with Git-based development. I have plenty of experience and knowledge of best practices."
-  url: "https://git-scm.com/"
-- name: SQL
-  logo: /images/sections/skills/sql.png
-  summary: "Know all Fundamentals of writing and creating queries from a database. As well as, writing automation scripts using JDBC."
-  url: "https://www.mysql.com/"
+  # Frameworks and Libraries
+  - name: Spring Ecosystems
+    logo: /images/sections/skills/spring-boot-icon.png
+    summary: "Strong expertise in Spring Frameworks, capable of developing full-stack applications that leverage Spring for rapid deployment and scalability."
+    url: "https://spring.io/"
+  - name: Angular
+    logo: /images/sections/skills/angular.png
+    summary: "Skilled in Angular for building dynamic, high-performance web applications, utilizing best practices for modern web development."
+    url: "https://angular.io/"
+  - name: Bootstrap
+    logo: /images/sections/skills/bootstrap.png
+    summary: "Experienced in using Bootstrap for responsive web design, efficiently creating visually appealing and mobile-friendly websites."
+    url: "https://getbootstrap.com/"
+
+  # Testing and Version Control
+  - name: Git
+    logo: /images/sections/skills/git.png
+    summary: "Experienced in Git-based version control, applying industry best practices for efficient project management and team collaboration."
+    url: "https://git-scm.com/"
+  - name: Cucumber / Gherkin
+    logo: /images/sections/skills/cucumber.png
+    summary: "In-depth knowledge of BDD frameworks, proficient in writing features, feature runners, and step definitions in Cucumber, integrating tools like Selenium, JDBC, and REST Assured."
+    url: "https://cucumber.io/"
+
+  # CI/CD and Project Management
+  - name: CI/CD
+    logo: /images/sections/skills/jenkins-icon.png
+    summary: "Skilled in creating Jenkins jobs for automatic test suite executions like Regression and Smoke tests upon code commits, enabling automated deployments."
+    url: "https://www.jenkins.io/"
+  - name: Jira
+    logo: /images/sections/skills/jira.png
+    summary: "Proficient in using Jira for detailed user story documentation, bug tracking and reporting, and integrating Jira Xray with karate frameworks."
+    url: "https://www.atlassian.com/software/jira"
+
+  # Cloud Platforms
+  - name: AWS
+    logo: /images/sections/skills/aws.png
+    summary: "Proficient in using AWS services for scalable cloud solutions, experienced in deploying and managing applications on AWS infrastructure."
+    url: "https://aws.amazon.com/"
+  - name: GCP (Google Cloud Platform)
+    logo: /images/sections/skills/gcp.png
+    summary: "Knowledgeable in Google Cloud Platform services, adept at leveraging GCP for robust cloud computing solutions."
+    url: "https://cloud.google.com/"

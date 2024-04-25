@@ -8,23 +8,23 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Developer
+designation: Full-stack Developer
 # your company information
 #company:
 #  name: Example Co.
 #  url: "https://www.example.com"
 
 # your resume. this file path should be relative to you "static" directory
-resume: "files/resume.pdf"
+resume: "files/full-stack-resume.pdf"
 
 # a summary about you
-summary: "Based in Pittsburgh, PA, I am a Full-Stack Developer with a keen expertise in the Spring Ecosystem. As a seasoned Software Tester and Developer, my proficiency spans Java, .Net, C#, and Spring. My strong testing background combined with my development skills positions me uniquely for roles that require a deep understanding of both testing and full-stack development using the Spring platform."
+summary: "Experienced Software Developer based in Pittsburgh, specializing in Java and the Spring Ecosystem. Skilled in crafting scalable web applications and problem-solving within collaborative teams. Eager to apply my technical prowess and passion for modern development practices to drive impactful business solutions."
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "jadenrs10@gmail.com"
+  url: "jaden@stitts.dev"
 
 - name: Github
   icon: "fab fa-github"
@@ -32,7 +32,7 @@ socialLinks:
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "https://www.linkedin.com/in/jadenstittsworth"
+  url: "https://www.linkedin.com/in/jadens"
 
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
