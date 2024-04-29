@@ -50,9 +50,21 @@ outputs:
 # Enable global emoji support
 enableEmoji: true
 
+
 # Site parameters
 params:
-  # GitHub repo URL of your site
+
+  # Background image of the landing page
+  background: /images/site/background.jpg
+
+  # Provide logos for your site. The inverted logo will be used in the initial
+  # transparent navbar and the main logo will be used in the non-transparent navbar.
+  # It will default to the theme logos if not provided.
+  logo:
+    main: /images/site/favicon_Dev.png
+    favicon: /images/site/favicon_Dev.png
+
+  # GitHub repo of your site
   gitRepo: https://github.com/Stitts5401/stitts.github.io
 
   features:
@@ -67,11 +79,22 @@ params:
     # Enable Table of contents in reading page
     toc:
       enable: true
+    darkMode:
+      enable: true
+    support:
+      enable: true
+      services:
+        buymeacoffee:
+          user: jadenrs10l
+          text: Support me on Buy me a coffee!
+          info: Buy me a coffee 🥺
+          color: '#FFDD00'
+#        kofi:
+#          user: ko-fi.com/stitts
+#          text: Tip Me
+#          textColor: '#f9fafc'
+#          backgroundColor: '#248aaa'
 
   # Configure footer
   footer:
-    enable: true
-
-features:
-  darkMode:
     enable: true
