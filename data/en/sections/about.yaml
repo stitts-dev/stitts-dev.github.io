@@ -37,24 +37,30 @@ socialLinks:
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
-softSkills:
-- name: Leadership
-  percentage: 85
+badges:
+- type: soft-skill-indicator
+  name: Leadership
+  percentage: 75
   color: blue
-- name: Team Work
-  percentage: 100
+- type: soft-skill-indicator
+  name: Team Work
+  percentage: 75
   color: yellow
-- name: Communication
-  percentage: 100
-  color: pink
-- name: Hard Working
-  percentage: 100
-  color: green
-- name: Fast Learner
+- type: soft-skill-indicator
+  name: Communication
   percentage: 90
-  color: sky
-- name: Problem Solving
+  color: pink
+- type: soft-skill-indicator
+  name: Hard Working
   percentage: 95
+  color: green
+- type: soft-skill-indicator
+  name: Fast Learner
+  percentage: 70
+  color: sky
+- type: soft-skill-indicator
+  name: Problem Solving
+  percentage: 85
   color: orange
 # you can also provide color code instead of pre-defined color name
 # - name: Example 1

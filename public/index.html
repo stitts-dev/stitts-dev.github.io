@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
 	<meta name="generator" content="Hugo 0.125.4"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-    <title>My Portfolio</title>
+    <title>Stitts.Dev</title>
     
     
       
@@ -16,22 +16,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-
-<link rel="stylesheet" href="/css/bootstrap.min.css"/>
-<link rel="stylesheet" href="/css/layouts/main.css"/>
-<link rel="stylesheet" href="/css/navigators/navbar.css"/>
-<link rel="stylesheet" href="/css/plyr.css"/>
-<link rel="stylesheet" href="/css/flag-icon.min.css"/>
-
-
-<link rel="stylesheet" href="/google-fonts/Mulish/mulish.css"/>
-
-
-<link rel="stylesheet" href="/fontawesome/css/all.min.css"/>
-
-
-
-<link rel="stylesheet" href="/css/colortheme/colortheme.css"/>
+<link rel="stylesheet" href="/application.82b772fb4dca3e014b67448668eed100a62c97192dc4155077b17dfd44d21faf.css" integrity="sha256-grdy&#43;03KPgFLZ0SGaO7RAKYslxktxBVQd7F9/UTSH68=" />
 
 
 
@@ -46,7 +31,7 @@
   
   
 
-  <link rel="icon" type="image/png" href="/images/site/favicon_Dev_hucbb4c0709ef61f1d9d6b1a0aaa0a0de0_1076_42x0_resize_box_3.png" />
+  <link rel="icon" type="image/png" href="/images/site/favicon_Dev_hub98f9328e3b0fc6a6a383bdf4202c3c6_358643_42x0_resize_box_3.png" />
 
 
 
@@ -55,54 +40,32 @@
 
 
 
-<meta property="og:title" content="My Portfolio"/>
+<meta property="og:title" content="Stitts.Dev"/>
 <meta property="og:type" content="website"/>
 <meta property="og:description" content="Portfolio and personal blog of Jaden Stittsworth."/>
-<meta property="og:image" content="http://localhost:1313/images/author/jaden.png">
+<meta property="og:image" content="/images/author/jaden.png">
 <meta property="og:url" content="http://localhost:1313/">
 
-    <link rel="stylesheet" href="/css/sections/home.css"/>
-    <link rel="stylesheet" href="/css/sections/about.css"/>
-    <link rel="stylesheet" href="/css/sections/skills.css"/>
-    <link rel="stylesheet" href="/css/sections/experiences.css"/>
-    <link rel="stylesheet" href="/css/sections/education.css"/>
-    <link rel="stylesheet" href="/css/sections/projects.css"/>
-    <link rel="stylesheet" href="/css/sections/recent-posts.css"/>
-    <link rel="stylesheet" href="/css/sections/achievements.css"/>
-    <link rel="stylesheet" href="/css/sections/accomplishments.css"/>
-    <link rel="stylesheet" href="/css/sections/publications.css"/>
-
-    
-    <link rel="stylesheet" href="/css/style.css"/>
-    
-    
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Stitts.Dev">
+<meta name="twitter:description" content="">
 
 
 
 
-    
-  
-    
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-5GE9QY8QQ2"></script>
-      <script>
-        var doNotTrack = false;
-        if ( false ) {
-          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
-          var doNotTrack = (dnt == "1" || dnt == "yes");
+
+
+<script>
+      theme = localStorage.getItem('darkmode:color-scheme') || 'system';
+      if (theme == 'system') {
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          theme = 'dark';
+        } else {
+          theme = 'light';
         }
-        if (!doNotTrack) {
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-5GE9QY8QQ2');
-        }
-      </script>
-    
-  
-
-
-
-</head>
+      }
+      document.documentElement.setAttribute('data-theme', theme);
+    </script>
+  </head>
   <body data-spy="scroll" data-target="#top-navbar" data-offset="100">
 
     
@@ -138,16 +101,22 @@
 
 
 
+  
+
+
+
+
 
 
 
   
 
 
-<nav class="navbar navbar-expand-xl top-navbar initial-navbar" id="top-navbar">
+<nav class="navbar navbar-expand-xl top-navbar shadow transparent-navbar homepage" id="top-navbar">
   <div class="container">
+    
     <a class="navbar-brand" href="/">
-      My Portfolio</a>
+      Stitts.Dev</a>
     <button
       class="navbar-toggler navbar-dark"
       id="navbar-toggler"
@@ -156,11 +125,11 @@
       data-target="#top-nav-items"
       aria-label="menu"
     >
-      <span class="navbar-toggler-icon"></span>
+      <i data-feather="menu"></i>
     </button>
 
     <div class="collapse navbar-collapse dynamic-navbar" id="top-nav-items">
-      <ul class="navbar-nav ml-auto">
+      <ul class="nav navbar-nav ml-auto">
         <li class="nav-item">
           <a class="nav-link" href="#home">Home</a>
         </li>
@@ -195,7 +164,7 @@
               
               
                 <li class="nav-item">
-                  <a class="nav-link" href="#education">Education</a>
+                  <a class="nav-link" href="#recent-posts">Recent Posts</a>
                 </li>
               
             
@@ -204,9 +173,6 @@
               
             
             
-            
-              
-              
             
             
           
@@ -239,11 +205,6 @@
                   
                   
                   
-                    
-                    
-                      <a class="dropdown-item" href="#accomplishments">Studying</a>
-                    
-                  
                   
               </div>
             </li>
@@ -260,32 +221,30 @@
         
         
           <li class="nav-item dropdown">
-
-<div id="theme-initialization" style="display: none;"
-  default-theme="system"></div>
 <a class="nav-link dropdown-toggle"  href="#" id="themeSelector" role="button"
   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-  <img id="navbar-theme-icon-svg" src="/icons/moon-svgrepo-com.svg" width=20>
+  <img id="navbar-theme-icon-svg" class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
 </a>
-<div class="dropdown-menu dropdown-menu-icons-only" aria-labelledby="themeSelector">
-  <a class="dropdown-item nav-link" href="#" onclick="enableLightTheme()">
-    <img class="menu-icon-center" src="/icons/sun-svgrepo-com.svg" width=20>
+<div id="themeMenu" class="dropdown-menu dropdown-menu-icons-only" aria-labelledby="themeSelector">
+  <a class="dropdown-item nav-link" href="#" data-scheme="light">
+    <img class="theme-icon" src="/icons/sun-svgrepo-com.svg" width=20 alt="Light Theme">
   </a>
-  <a class="dropdown-item nav-link" href="#" onclick="enableDarkTheme()">
-    <img class="menu-icon-center" src="/icons/moon-svgrepo-com.svg" width=20>
+  <a class="dropdown-item nav-link" href="#" data-scheme="dark">
+    <img class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
   </a>
-  <a class="dropdown-item nav-link" href="#" onclick="useSystemTheme()">
-    <img class="menu-icon-center" src="/icons/computer-svgrepo-com.svg" width=20>
+  <a class="dropdown-item nav-link" href="#" data-scheme="system">
+    <img class="theme-icon" src="/icons/computer-svgrepo-com.svg" width=20 alt="System Theme">
   </a>
 </div>
 </li>
+
         
       </ul>
     </div>
   </div>
   
   
-    <img src="/images/site/favicon_Dev_hucbb4c0709ef61f1d9d6b1a0aaa0a0de0_1076_42x0_resize_box_3.png" class="d-none" id="main-logo" alt="Logo">
+    <img src="/images/site/favicon_Dev_hub98f9328e3b0fc6a6a383bdf4202c3c6_358643_42x0_resize_box_3.png" class="d-none" id="main-logo" alt="Logo">
   
   
 </nav>
@@ -388,7 +347,7 @@
       class="rounded-circle mx-auto d-block img-fluid"
       alt="Author Image"
     />
-    <h1 class="greeting"> Hi, I am Jaden</h1>
+    <h1 class="greeting"> Hi, I&#39;m Jaden</h1>
     
     <div class="typing-carousel">
       <span id="ityped" class="ityped"></span>
@@ -397,15 +356,33 @@
     <ul id="typing-carousel-data">
       
         
-          <li>Im a Problem solve.</li>
+          <li>Fullstack Developer</li>
         
-          <li>Fullstack Developement.</li>
+          <li>Spring Ecosystem</li>
         
-          <li>Test Automate.</li>
+          <li>Engineering</li>
         
-          <li>Spring Ecosystem Fanatic.</li>
+          <li>Math</li>
         
-          <li>Personal Development!</li>
+          <li>SQL</li>
+        
+          <li>Angular</li>
+        
+          <li>JavaScript</li>
+        
+          <li>Google Cloud Platform</li>
+        
+          <li>FireBase</li>
+        
+          <li>Jenkins</li>
+        
+          <li>Cucumber</li>
+        
+          <li>Selenium</li>
+        
+          <li>JUnit</li>
+        
+          <li>Mockito</li>
         
       
     </ul>
@@ -415,7 +392,7 @@
         
           
         
-        <a href="#about" aria-label="Read More - Jaden"><i class="arrow bounce fa fa-chevron-down"></i></a>
+        <a href="#about" class="arrow-center" aria-label="Read More - Jaden"><i class="arrow bounce fa fa-chevron-down"></i></a>
       
     
   </div>
@@ -430,7 +407,7 @@
       
       
         
-          <div class="container-fluid section-holder d-flex bg-white">
+          <div class="container-fluid section-holder d-flex bg-primary">
             
 
   
@@ -480,7 +457,7 @@
         </ul>
       </div>
       
-      <a href="/files/full-stack-resume.pdf" title="My resume" target="#"
+      <a href="/files/resume.pdf" title="My resume" target="#"
         ><button class="btn btn-dark">My resume</button></a
       >
       
@@ -490,140 +467,188 @@
     <div class="col-sm-6 pt-5 pl-md-4 pl-sm-3 pt-sm-0">
       <div class="row">
         
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    
+    
+    
+    
+    
         
         
-        
-          
-<div class="col-6 col-lg-4 p-2">
-  
-  
-  <div class="circular-progress blue">
+    
+    <div class="circular-progress blue">
     <span class="circular-progress-left">
-      <span
-        class="circular-progress-bar circular-progress-percentage-85"
+        <span
+        class="circular-progress-bar circular-progress-percentage-25  circular-progress-percentage-50-delay"
         
-      ></span>
+        ></span>
     </span>
     <span class="circular-progress-right">
-      <span
-      class="circular-progress-bar"
-      
-      ></span>
+        <span
+        class="circular-progress-bar circular-progress-percentage-50"
+        
+        ></span>
     </span>
     <div class="circular-progress-value">Leadership</div>
-  </div>
+    </div>
+
 </div>
 
         
-          
-<div class="col-6 col-lg-4 p-2">
-  
-  
-  <div class="circular-progress yellow">
-    <span class="circular-progress-left">
-      <span
-        class="circular-progress-bar circular-progress-percentage-100"
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    
+    
+    
+    
+    
         
-      ></span>
+        
+    
+    <div class="circular-progress yellow">
+    <span class="circular-progress-left">
+        <span
+        class="circular-progress-bar circular-progress-percentage-25  circular-progress-percentage-50-delay"
+        
+        ></span>
     </span>
     <span class="circular-progress-right">
-      <span
-      class="circular-progress-bar"
-      
-      ></span>
+        <span
+        class="circular-progress-bar circular-progress-percentage-50"
+        
+        ></span>
     </span>
     <div class="circular-progress-value">Team Work</div>
-  </div>
+    </div>
+
 </div>
 
         
-          
-<div class="col-6 col-lg-4 p-2">
-  
-  
-  <div class="circular-progress pink">
-    <span class="circular-progress-left">
-      <span
-        class="circular-progress-bar circular-progress-percentage-100"
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    
+    
+    
+    
+    
         
-      ></span>
+        
+    
+    <div class="circular-progress pink">
+    <span class="circular-progress-left">
+        <span
+        class="circular-progress-bar circular-progress-percentage-40  circular-progress-percentage-50-delay"
+        
+        ></span>
     </span>
     <span class="circular-progress-right">
-      <span
-      class="circular-progress-bar"
-      
-      ></span>
+        <span
+        class="circular-progress-bar circular-progress-percentage-50"
+        
+        ></span>
     </span>
     <div class="circular-progress-value">Communication</div>
-  </div>
+    </div>
+
 </div>
 
         
-          
-<div class="col-6 col-lg-4 p-2">
-  
-  
-  <div class="circular-progress green">
-    <span class="circular-progress-left">
-      <span
-        class="circular-progress-bar circular-progress-percentage-100"
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    
+    
+    
+    
+    
         
-      ></span>
+        
+    
+    <div class="circular-progress green">
+    <span class="circular-progress-left">
+        <span
+        class="circular-progress-bar circular-progress-percentage-45  circular-progress-percentage-50-delay"
+        
+        ></span>
     </span>
     <span class="circular-progress-right">
-      <span
-      class="circular-progress-bar"
-      
-      ></span>
+        <span
+        class="circular-progress-bar circular-progress-percentage-50"
+        
+        ></span>
     </span>
     <div class="circular-progress-value">Hard Working</div>
-  </div>
+    </div>
+
 </div>
 
         
-          
-<div class="col-6 col-lg-4 p-2">
-  
-  
-  <div class="circular-progress sky">
-    <span class="circular-progress-left">
-      <span
-        class="circular-progress-bar circular-progress-percentage-90"
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    
+    
+    
+    
+    
         
-      ></span>
+        
+    
+    <div class="circular-progress sky">
+    <span class="circular-progress-left">
+        <span
+        class="circular-progress-bar circular-progress-percentage-20  circular-progress-percentage-50-delay"
+        
+        ></span>
     </span>
     <span class="circular-progress-right">
-      <span
-      class="circular-progress-bar"
-      
-      ></span>
+        <span
+        class="circular-progress-bar circular-progress-percentage-50"
+        
+        ></span>
     </span>
     <div class="circular-progress-value">Fast Learner</div>
-  </div>
+    </div>
+
 </div>
 
         
-          
-<div class="col-6 col-lg-4 p-2">
-  
-  
-  <div class="circular-progress orange">
-    <span class="circular-progress-left">
-      <span
-        class="circular-progress-bar circular-progress-percentage-95"
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    
+    
+    
+    
+    
         
-      ></span>
+        
+    
+    <div class="circular-progress orange">
+    <span class="circular-progress-left">
+        <span
+        class="circular-progress-bar circular-progress-percentage-35  circular-progress-percentage-50-delay"
+        
+        ></span>
     </span>
     <span class="circular-progress-right">
-      <span
-      class="circular-progress-bar"
-      
-      ></span>
+        <span
+        class="circular-progress-bar circular-progress-percentage-50"
+        
+        ></span>
     </span>
     <div class="circular-progress-value">Problem Solving</div>
-  </div>
+    </div>
+
 </div>
 
+        
+        
+        
         
       </div>
     </div>
@@ -638,7 +663,7 @@
         
       
         
-          <div class="container-fluid section-holder d-flex bg-dimmed">
+          <div class="container-fluid section-holder d-flex bg-secondary">
             
 
   
@@ -653,7 +678,7 @@
     <div class="row" id="primary-skills">
       
         <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="https://www.java.com/en/" title="Java" target="_blank" rel="noopener">
+  <a class="text-decoration-none" href="https://www.java.com/en/" title="Java" target="_blank" rel="noopener">
     <div class="card">
       <div class="card-head d-flex">
         
@@ -676,7 +701,7 @@
 
       
         <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript" target="_blank" rel="noopener">
+  <a class="text-decoration-none" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript" target="_blank" rel="noopener">
     <div class="card">
       <div class="card-head d-flex">
         
@@ -699,7 +724,7 @@
 
       
         <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="https://www.mysql.com/" title="SQL" target="_blank" rel="noopener">
+  <a class="text-decoration-none" href="https://www.mysql.com/" title="SQL" target="_blank" rel="noopener">
     <div class="card">
       <div class="card-head d-flex">
         
@@ -722,7 +747,7 @@
 
       
         <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="https://spring.io/" title="Spring Ecosystems" target="_blank" rel="noopener">
+  <a class="text-decoration-none" href="https://spring.io/" title="Spring Ecosystems" target="_blank" rel="noopener">
     <div class="card">
       <div class="card-head d-flex">
         
@@ -745,7 +770,7 @@
 
       
         <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="https://angular.io/" title="Angular" target="_blank" rel="noopener">
+  <a class="text-decoration-none" href="https://angular.io/" title="Angular" target="_blank" rel="noopener">
     <div class="card">
       <div class="card-head d-flex">
         
@@ -768,7 +793,7 @@
 
       
         <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="https://getbootstrap.com/" title="Bootstrap" target="_blank" rel="noopener">
+  <a class="text-decoration-none" href="https://getbootstrap.com/" title="Bootstrap" target="_blank" rel="noopener">
     <div class="card">
       <div class="card-head d-flex">
         
@@ -791,7 +816,7 @@
 
       
         <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="https://git-scm.com/" title="Git" target="_blank" rel="noopener">
+  <a class="text-decoration-none" href="https://git-scm.com/" title="Git" target="_blank" rel="noopener">
     <div class="card">
       <div class="card-head d-flex">
         
@@ -814,7 +839,7 @@
 
       
         <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="https://cucumber.io/" title="Cucumber / Gherkin" target="_blank" rel="noopener">
+  <a class="text-decoration-none" href="https://cucumber.io/" title="Cucumber / Gherkin" target="_blank" rel="noopener">
     <div class="card">
       <div class="card-head d-flex">
         
@@ -837,7 +862,7 @@
 
       
         <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="https://www.jenkins.io/" title="CI/CD" target="_blank" rel="noopener">
+  <a class="text-decoration-none" href="https://www.jenkins.io/" title="CI/CD" target="_blank" rel="noopener">
     <div class="card">
       <div class="card-head d-flex">
         
@@ -860,7 +885,7 @@
 
       
         <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="https://www.atlassian.com/software/jira" title="Jira" target="_blank" rel="noopener">
+  <a class="text-decoration-none" href="https://www.atlassian.com/software/jira" title="Jira" target="_blank" rel="noopener">
     <div class="card">
       <div class="card-head d-flex">
         
@@ -883,7 +908,7 @@
 
       
         <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="https://aws.amazon.com/" title="AWS" target="_blank" rel="noopener">
+  <a class="text-decoration-none" href="https://aws.amazon.com/" title="AWS" target="_blank" rel="noopener">
     <div class="card">
       <div class="card-head d-flex">
         
@@ -906,7 +931,7 @@
 
       
         <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="https://cloud.google.com/" title="GCP (Google Cloud Platform)" target="_blank" rel="noopener">
+  <a class="text-decoration-none" href="https://cloud.google.com/" title="GCP (Google Cloud Platform)" target="_blank" rel="noopener">
     <div class="card">
       <div class="card-head d-flex">
         
@@ -940,7 +965,7 @@
         
       
         
-          <div class="container-fluid section-holder d-flex bg-white">
+          <div class="container-fluid section-holder d-flex bg-primary">
             
 
   
@@ -961,42 +986,55 @@
   <div class="circle font-weight-bold">1</div>
 </div>
 
-         
-  <div class="col-10 col-lg-8">
+         <div class="col-10 col-lg-8">
     <div class="experience-entry-heading">
         
         
-        <h5>Full-stack Developer</h5>
-        <h6><a href=https://www.talogy.com/en/ title="Talogy Tech" target="_blank" rel="noopener">Talogy Tech</a></h6>
         
-        <p class="text-muted">Nov 2021 - Present,
-            Pittsburgh, PA - remote
+        
+        
+        
+        <div class="company-heading">
+            <h5><a href=https://www.talogy.com/en/ title="Talogy Tech" target="_blank" rel="noopener">Talogy Tech</a></h5>
+            <p class="text-muted">
+                Nov 2021 - Present
+            </p>
+        </div>
+        <p class="text-muted">
+            <i class="fa-solid fa-location-dot"></i> Pittsburgh, PA - remote
         </p>
+        
+        <p>Ensure smooth development process working hand in hand with developers.</p>
     </div>
     
-    <p>Ensure smooth development process working hand in hand with developers.</p>
+    <div class="positions">
     
+        <div class="company-heading">
+            <h5 class="designation">Software Developer</h5>
+            <p class="text-muted">Nov 2021 -  Present </p>
+        </div>
+        
+        
+            <h6 class="text-heading">Responsibilities:</h6>
+            <ul class="justify-content-around">
+                
+                    <li>Enhanced UI/UX with UX/UI team collaboration.</li>
+                
+                    <li>Developed Angular and Spring Boot applications.</li>
+                
+                    <li>Ensured code quality with TypeScript, HTML, CSS.</li>
+                
+                    <li>Managed RESTful API integration and maintenance.</li>
+                
+                    <li>Led cross-functional teams for problem-solving.</li>
+                
+                    <li>Applied performance optimization techniques.</li>
+                
+            </ul>
+        
     
-    <h6 class="text-muted">Responsibilities:</h6>
-    <ul class="justify-content-around">
-    
-        <li>Collaborated with UX/UI designers to enhance and implement responsive, user-friendly interfaces.</li>
-    
-        <li>Designed, developed, and maintained critical business applications using Angular, employing industry best practices and design patterns.</li>
-    
-        <li>Wrote clean, modular, and testable code using TypeScript, HTML, and CSS.</li>
-    
-        <li>Integrated and maintained RESTful APIs and services, contributing to efficient front-end to back-end communication.</li>
-    
-        <li>Collaborated with cross-functional teams to solve complex problems and deliver products to customers on time.</li>
-    
-        <li>Optimized application performance and scalability using advanced techniques like lazy loading, caching, and code-splitting.</li>
-    
-    </ul>
-    
+    </div>
 </div>
-
-
 
        </div>
      
@@ -1017,38 +1055,55 @@
    
      
        <div class="row align-items-center justify-content-end d-flex">
-         
-  <div class="col-10 col-lg-8">
+         <div class="col-10 col-lg-8">
     <div class="experience-entry-heading">
         
         
-        <h5>Software Developer / Lead Test-Analyst</h5>
-        <h6><a href=https://www.pnc.com/en/about-pnc.html?lnksrc&#61;topnav title="PNC Bank" target="_blank" rel="noopener">PNC Bank</a></h6>
         
-        <p class="text-muted">Mar 2019 - Nov 2021,
-            Pittsburgh, PA - remote
+        
+        
+        
+        <div class="company-heading">
+            <h5><a href=https://www.pnc.com/en/about-pnc.html?lnksrc&#61;topnav title="PNC Bank" target="_blank" rel="noopener">PNC Bank</a></h5>
+            <p class="text-muted">
+                Mar 2017 - Nov 2021
+            </p>
+        </div>
+        <p class="text-muted">
+            <i class="fa-solid fa-location-dot"></i> Pittsburgh, PA - remote
         </p>
+        
+        <p>Create tools and services which allow other teams to access, reserve, and manipulate test data.</p>
     </div>
     
-    <p>Create tools and services which allow other teams to access, reserve, and manipulate test data.</p>
+    <div class="positions">
     
+        <div class="company-heading">
+            <h5 class="designation">Lead Software Developer</h5>
+            <p class="text-muted">Mar 2017 -  Nov 2021 </p>
+        </div>
+        
+        
+            <h6 class="text-heading">Responsibilities:</h6>
+            <ul class="justify-content-around">
+                
+                    <li>Managed Java microservices for resource optimization.</li>
+                
+                    <li>Improved productivity with Java Spring system.</li>
+                
+                    <li>Implemented new features, boosting efficiency.</li>
+                
+                    <li>Guided Agile process for on-time software delivery.</li>
+                
+                    <li>Automated CI/CD with Jenkins.</li>
+                
+                    <li>Fortified security with Spring enhancements.</li>
+                
+            </ul>
+        
     
-    <h6 class="text-muted">Responsibilities:</h6>
-    <ul class="justify-content-around">
-    
-        <li>Developed and maintained robust software tools using Java and the Spring Ecosystem, enhancing productivity across development and testing teams.</li>
-    
-        <li>Led the design and implementation of new features, significantly improving development efficiency and reducing time-to-market.</li>
-    
-        <li>Actively participated in Agile ceremonies, including sprint planning and review sessions, ensuring timely delivery of software products.</li>
-    
-        <li>Utilized Jenkins to automate build and deployment processes, enhancing continuous integration and continuous delivery efforts.</li>
-    
-    </ul>
-    
+    </div>
 </div>
-
-
 
          <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
   <div class="circle font-weight-bold">2</div>
@@ -1057,66 +1112,6 @@
        </div>
      
      
-       <div class="row horizontal-line">
-  <div class="col-1 col-lg-2 timeline-side-div">
-    <div class="corner"></div>
-  </div>
-  <div class="col-10 col-lg-8">
-    <hr />
-  </div>
-  <div class="col-1 col-lg-2 timeline-side-div">
-    <div class="corner"></div>
-  </div>
-</div>
-
-     
-   
-     
-       <div class="row align-items-center  d-flex">
-         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
-  <div class="circle font-weight-bold">3</div>
-</div>
-
-         
-  <div class="col-10 col-lg-8">
-    <div class="experience-entry-heading">
-        
-        
-        <h5>Software Development Intern</h5>
-        <h6>SysLibrary</h6>
-        
-        <p class="text-muted">Dec 2017 - May 2018,
-            Pittsburgh, PA - remote
-        </p>
-    </div>
-    
-    <p>Intro to the tech industry learned a lot and contributed to a large project in the Spring Ecosystem</p>
-    
-    
-    <h6 class="text-muted">Responsibilities:</h6>
-    <ul class="justify-content-around">
-    
-        <li>Participated in the development of a large-scale project leveraging the Spring Framework, focusing on building resilient and efficient backend services.</li>
-    
-        <li>Collaborated closely with a team to design and implement feature enhancements, leading to a notable increase in application performance.</li>
-    
-        <li>Employed Java and Spring best practices to ensure code quality and maintainability.</li>
-    
-        <li>Utilized Thymeleaf for dynamic web views, enhancing the user experience by creating responsive and interactive web pages.</li>
-    
-        <li>Engaged in behavior-driven development (BDD) with Cucumber to align development work with business objectives and ensure all stakeholders&rsquo; needs were met.</li>
-    
-        <li>Actively contributed to code reviews, offering insightful improvements and advocating for coding standards.</li>
-    
-    </ul>
-    
-</div>
-
-
-
-       </div>
-     
-     
    
   </div>
 </div>
@@ -1129,55 +1124,64 @@
         
       
         
-          <div class="container-fluid section-holder d-flex bg-dimmed">
+          <div class="container-fluid section-holder d-flex bg-secondary">
             
 
-
-
-
-<div class="container-fluid anchor pb-5 education-section">
-  
-    <h1 class="text-center">
-        <span id="education"></span>Education</h1>
   
 
+
+
+
+  
+
+
+
+<div class="container-fluid anchor pb-5 recent-posts-section">
+  
+    <h1 class="text-center" style="display: none">
+        <span id="recent-posts"></span>Recent Posts</h1>
+  
   <div class="container">
-    <table class="education-info-table">
-        <tbody>
-            
-            
-            <tr>
-                <td class="icon">
-                    
-                        <div class="icon-holder">
-                            <i class="fas fa-university"></i>
-                        </div>
-                    </td>
-                    <td class="line">
-                        <div></div>
-                    </td>
-                    <td class="details">
-                        <div class="degree-info card">
-                            <div class="row">
-                                <div class="col-lg-10 col-md-8">
-                                    
-                                        <h5>CYDEO Full-Stack Boot camp</h5>
-                                    
-                                </div>
-                                <div class="timeframe col-lg-2 col-md-4">2017-2018</div>
-                            </div>
-                            <h6>Engaging in an intensive, hands-on training program focused on developing skills in Java and modern web technologies, including HTML, CSS, JavaScript, Angular, and React.</h6>
-                            
-                            
-                            
-                            
-                        </div>
-                    </td>
-                </tr>
-                
-            </tbody>
-        </table>
+    <div class="row" id="recent-post-cards">
+      
+        <div class="post-card">
+  <div class="card">
+    <div class="card-head">
+      <a href="/posts/jmt/" class="post-card-link">
+        <img class="card-img-top" src='/images/sections/post/stockimg1.webp' alt="Hero Image">
+      </a>
     </div>
+    <div class="card-body">
+      <a href="/posts/jmt/" class="post-card-link">
+        <h5 class="card-title">JMT-Services Project</h5>
+        <p class="card-text post-summary">All Projects
+JMT-Services is a contractor/job management tool I developed for fun. It&rsquo;s built with a bunch of nifty technologies that you&rsquo;ve probably heard of: Spring Boot, Spring Security, Google Cloud Platform (GCP), Thymeleaf, Keycloak, Bootstrap, and WebFlux. The idea was to create something that could handle the ups and downs of job management demands. With WebFlux, it&rsquo;s as responsive as they come, scaling smoothly and swiftly. The whole thing runs in containers on GCP, making deployment a breeze, especially with a CI/CD pipeline managed through GitHub Actions.</p>
+      </a>
+      
+    </div>
+    <div class="card-footer">
+      <span class="float-left">
+          Friday, March 8, 2024
+          </span>
+      <a
+      href="/posts/jmt/"
+      class="float-right btn btn-outline-info btn-sm">Read</a>
+    </div>
+  </div>
+</div>
+
+      
+    </div>
+  </div>
+  
+  <div class="container" style="
+  display: flex;
+  align-items: center;
+  justify-content: center;">
+    <a href="/posts/" title="Show More" class="float-right btn btn-outline-info btn-sm" >
+    Show More</a>
+  </div>
+  
 </div>
 
           </div>
@@ -1188,7 +1192,7 @@
         
       
         
-          <div class="container-fluid section-holder d-flex bg-white">
+          <div class="container-fluid section-holder d-flex bg-primary">
             
 
   
@@ -1225,7 +1229,7 @@
       
         <div
   class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
-  data-category='all, Business,Training'
+  data-category='all, All,Business,Training'
 >
   <div class="card mt-1">
     <div class="card">
@@ -1258,6 +1262,10 @@
             <div class="project-tags-holder">
               
                   <span class="badge btn-info">
+                    All
+                  </span>
+              
+                  <span class="badge btn-info">
                     Business
                   </span>
               
@@ -1269,8 +1277,9 @@
           
           <div class="project-btn-holder">
             
+            
             <a
-              class="github-button-inactive project-btn"
+              class="github-button project-btn d-none"
               href="https://github.com/Stitts5401/JMT-Services"
               data-icon="octicon-standard"
               data-show-count="true"
@@ -1288,7 +1297,7 @@
       
         <div
   class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
-  data-category='all, Business,Training'
+  data-category='all, All,Business,Training'
 >
   <div class="card mt-1">
     <div class="card">
@@ -1316,6 +1325,10 @@
             <div class="project-tags-holder">
               
                   <span class="badge btn-info">
+                    All
+                  </span>
+              
+                  <span class="badge btn-info">
                     Business
                   </span>
               
@@ -1327,8 +1340,9 @@
           
           <div class="project-btn-holder">
             
+            
             <a
-              class="github-button-inactive project-btn"
+              class="github-button project-btn d-none"
               href="https://github.com/Stitts5401/click-to-deploy-keycloak"
               data-icon="octicon-standard"
               data-show-count="true"
@@ -1346,7 +1360,7 @@
       
         <div
   class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
-  data-category='all, Academic,Professionalism'
+  data-category='all, All,Academic,Professionalism'
 >
   <div class="card mt-1">
     <div class="card">
@@ -1374,6 +1388,10 @@
             <div class="project-tags-holder">
               
                   <span class="badge btn-info">
+                    All
+                  </span>
+              
+                  <span class="badge btn-info">
                     Academic
                   </span>
               
@@ -1385,8 +1403,9 @@
           
           <div class="project-btn-holder">
             
+            
             <a
-              class="github-button-inactive project-btn"
+              class="github-button project-btn d-none"
               href="https://github.com/Stitts5401/stitts5401.github.io"
               data-icon="octicon-standard"
               data-show-count="true"
@@ -1404,7 +1423,7 @@
       
         <div
   class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
-  data-category='all, Academic'
+  data-category='all, All,Academic'
 >
   <div class="card mt-1">
     <div class="card">
@@ -1439,6 +1458,10 @@
             <div class="project-tags-holder">
               
                   <span class="badge btn-info">
+                    All
+                  </span>
+              
+                  <span class="badge btn-info">
                     Academic
                   </span>
               
@@ -1446,8 +1469,9 @@
           
           <div class="project-btn-holder">
             
+            
             <a
-              class="github-button-inactive project-btn"
+              class="github-button project-btn d-none"
               href="https://github.com/Stitts5401/demo"
               data-icon="octicon-standard"
               data-show-count="true"
@@ -1465,7 +1489,7 @@
       
         <div
   class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
-  data-category='all, Academic'
+  data-category='all, All,Academic'
 >
   <div class="card mt-1">
     <div class="card">
@@ -1493,11 +1517,15 @@
         </div>
       </a>
       <div class="card-body text-justify pt-1 pb-1">
-        <p>First dive into react.Js try it out! <a href="http://jadenstittsworth.com/Tic-Tac-Toe_React.Js_project/">http://jadenstittsworth.com/Tic-Tac-Toe_React.Js_project/</a></p>
+        <p>First dive into react.Js try it out! <a href="http://jadenstittsworth.com/Tic-Tac-Toe_React.Js_project/" target="_blank" rel="noopener">http://jadenstittsworth.com/Tic-Tac-Toe_React.Js_project/</a></p>
         
         <div class="project-card-footer">
           
             <div class="project-tags-holder">
+              
+                  <span class="badge btn-info">
+                    All
+                  </span>
               
                   <span class="badge btn-info">
                     Academic
@@ -1507,8 +1535,9 @@
           
           <div class="project-btn-holder">
             
+            
             <a
-              class="github-button-inactive project-btn"
+              class="github-button project-btn d-none"
               href="https://github.com/Stitts5401/Tic-Tac-Toe_React.Js_project"
               data-icon="octicon-standard"
               data-show-count="true"
@@ -1538,247 +1567,7 @@
         
       
         
-          <div class="container-fluid section-holder d-flex bg-dimmed">
-            
-
-  
-
-
-<div class="container-fluid anchor pb-5 accomplishments-section">
-  
-    <h1 class="text-center">
-        <span id="accomplishments"></span>Studying</h1>
-  
-  
-  <div class="container">
-    <div class="row" id="acomplishment-card-holder">
       
-        <div class="col-md-12 col-lg-6 p-2">
-  <div class="card mt-3">
-    <div class="card-header">
-      <h5 class="card-title mb-0">Elequent JavaScript</h5>
-      <div class="sub-title">
-        <span><a href="https://eloquentjavascript.net/" title="Marijn Haverbeke" target="_blank" rel="noopener">Marijn Haverbeke</a></span>
-        <span class="ml-2"></span>
-      </div>
-    </div>
-    <div class="card-body">
-      <p></p>
-    </div>
-    <div class="card-footer">
-      
-    </div>
-  </div>
-</div>
-
-      
-        <div class="col-md-12 col-lg-6 p-2">
-  <div class="card mt-3">
-    <div class="card-header">
-      <h5 class="card-title mb-0">Spring Framework</h5>
-      <div class="sub-title">
-        <span><a href="https://spring.io/" title="Spring.io" target="_blank" rel="noopener">Spring.io</a></span>
-        <span class="ml-2"></span>
-      </div>
-    </div>
-    <div class="card-body">
-      <p></p>
-    </div>
-    <div class="card-footer">
-      
-    </div>
-  </div>
-</div>
-
-      
-        <div class="col-md-12 col-lg-6 p-2">
-  <div class="card mt-3">
-    <div class="card-header">
-      <h5 class="card-title mb-0">Html and CSS Book</h5>
-      <div class="sub-title">
-        <span><a href="https://www.htmlandcssbook.com/" title="https://www.htmlandcssbook.com/" target="_blank" rel="noopener">https://www.htmlandcssbook.com/</a></span>
-        <span class="ml-2"></span>
-      </div>
-    </div>
-    <div class="card-body">
-      <p></p>
-    </div>
-    <div class="card-footer">
-      
-    </div>
-  </div>
-</div>
-
-      
-        <div class="col-md-12 col-lg-6 p-2">
-  <div class="card mt-3">
-    <div class="card-header">
-      <h5 class="card-title mb-0">Full-Stack Engineer</h5>
-      <div class="sub-title">
-        <span><a href="https://www.codecademy.com/learn/paths/full-stack-engineer-career-path" title="Course Summary" target="_blank" rel="noopener">Course Summary</a></span>
-        <span class="ml-2"></span>
-      </div>
-    </div>
-    <div class="card-body">
-      <p></p>
-    </div>
-    <div class="card-footer">
-      
-    </div>
-  </div>
-</div>
-
-      
-    </div>
-  </div>
-</div>
-
-          </div>
-          
-          
-            
-          
-        
-      
-        
-          <div class="container-fluid section-holder d-flex bg-white">
-            
-
-  
-
-
-<div class="container-fluid anchor pb-5 achievements-section">
-  
-    <h1 class="text-center" style="display: none">
-        <span id="achievements"></span>Achievements</h1>
-  
-  <div class="container">
-    <div class="row" id="gallery">
-    </div>
-  </div>
-  
-  <div class="d-none" id="achievements-holder">
-    
-      
-
-
-
-
-
-  
-  
-  
-  
-
-
-<div 
-  class="achievement-entry text-center"
-  style="background-image: url('/images/sections/achievements/pittsburgh_hua14ef57eb5e9ee153a0d369e50bb95df_19947_0x300_resize_q75_box.jpg');"
->
-  <i class="fas fa-search-plus" id="enlarge-icon"></i>
-  <h4 class="title" id="achievement-title">Home</h4>
-  <div class="caption hidden col-lg-6 text-left" id="caption">
-    <h4>Home</h4>
-    <p>Born and raised in my beautiful hometown of Pittsburgh.</p>
-    
-  </div>
-  <span style="background-image: url('/images/sections/achievements/pittsburgh_hua14ef57eb5e9ee153a0d369e50bb95df_19947_0x300_resize_q75_box.jpg');" class="d-none" id="SmallImage" active="true"></span>
-<span  style="background-image: url('/images/sections/achievements/pittsburgh_hua14ef57eb5e9ee153a0d369e50bb95df_19947_0x1500_resize_q75_box.jpg');" class="d-none" id="LargeImage"></span>
-</div>
-
-    
-      
-
-
-
-
-
-  
-  
-  
-  
-
-
-<div 
-  class="achievement-entry text-center"
-  style="background-image: url('/images/sections/achievements/MR2_hu3d54354fc4beb80e0b47c54b0150edff_6698174_0x300_resize_q75_box.JPEG');"
->
-  <i class="fas fa-search-plus" id="enlarge-icon"></i>
-  <h4 class="title" id="achievement-title">Goals</h4>
-  <div class="caption hidden col-lg-6 text-left" id="caption">
-    <h4>Goals</h4>
-    <p>My ambitions are to learn and improve myself and my skills professionally to be able to get into real-estate! I want to park my first big investment in a nice driveway.</p>
-    
-  </div>
-  <span style="background-image: url('/images/sections/achievements/MR2_hu3d54354fc4beb80e0b47c54b0150edff_6698174_0x300_resize_q75_box.JPEG');" class="d-none" id="SmallImage" active="true"></span>
-<span  style="background-image: url('/images/sections/achievements/MR2_hu3d54354fc4beb80e0b47c54b0150edff_6698174_0x1500_resize_q75_box.JPEG');" class="d-none" id="LargeImage"></span>
-</div>
-
-    
-      
-
-
-
-
-
-  
-  
-  
-  
-
-
-<div 
-  class="achievement-entry text-center"
-  style="background-image: url('/images/sections/achievements/league_hu1830543885843bf48c3ad6ef6f40d04f_172408_0x300_resize_q75_box.jpg');"
->
-  <i class="fas fa-search-plus" id="enlarge-icon"></i>
-  <h4 class="title" id="achievement-title">Hobbies</h4>
-  <div class="caption hidden col-lg-6 text-left" id="caption">
-    <h4>Hobbies</h4>
-    <p>Pretty much my only hobby besides working on cars. In the course of my league career I grew Duck Dynasty tier beared climbing to the top .01% of players, mastering my team skills, coordination, and communication.</p>
-    
-  </div>
-  <span style="background-image: url('/images/sections/achievements/league_hu1830543885843bf48c3ad6ef6f40d04f_172408_0x300_resize_q75_box.jpg');" class="d-none" id="SmallImage" active="true"></span>
-<span  style="background-image: url('/images/sections/achievements/league_hu1830543885843bf48c3ad6ef6f40d04f_172408_0x1500_resize_q75_box.jpg');" class="d-none" id="LargeImage"></span>
-</div>
-
-    
-      
-
-
-
-
-
-  
-  
-  
-  
-
-
-<div 
-  class="achievement-entry text-center"
-  style="background-image: url('/images/sections/achievements/rascal_hu0bd69015bfdc6662992764a3dfa01dda_461604_0x300_resize_box_3.png');"
->
-  <i class="fas fa-search-plus" id="enlarge-icon"></i>
-  <h4 class="title" id="achievement-title"></h4>
-  <div class="caption hidden col-lg-6 text-left" id="caption">
-    <h4></h4>
-    <p>My little buddy keeps me sain while work from home.</p>
-    
-  </div>
-  <span style="background-image: url('/images/sections/achievements/rascal_hu0bd69015bfdc6662992764a3dfa01dda_461604_0x300_resize_box_3.png');" class="d-none" id="SmallImage" active="true"></span>
-<span  style="background-image: url('/images/sections/achievements/rascal_hu0bd69015bfdc6662992764a3dfa01dda_461604_0x1500_resize_box_3.png');" class="d-none" id="LargeImage"></span>
-</div>
-
-    
-  </div>
-</div>
-
-          </div>
-          
-          
-            
-          
         
       
     
@@ -1883,7 +1672,7 @@
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="http://localhost:1313/#education">Education</a>
+                  <a class="smooth-scroll" href="http://localhost:1313/#recent-posts">Recent Posts</a>
                 </li>
               
               
@@ -1896,14 +1685,6 @@
                 </li>
               
               
-              
-                
-                
-                  
-                
-                <li class="nav-item">
-                  <a class="smooth-scroll" href="http://localhost:1313/#accomplishments">Studying</a>
-                </li>
               
               
             
@@ -1919,13 +1700,9 @@
           <ul>
             
               
-                <li><a href=mailto:Jadenrs10@gmail.com target="_blank" rel="noopener">
-                  <span><i class="fas fa-envelope"></i></span> <span>Jadenrs10@gmail.com</span>
+                <li><a href=mailto:Jaden@Stitts.dev target="_blank" rel="noopener">
+                  <span><i class="fas fa-envelope"></i></span> <span>Jaden@Stitts.dev</span>
                 </a></li>
-              
-            
-              
-                <li><span><i class="fas fa-phone-alt"></i></span> <span>&#43;4125274078</span></li>
               
             
           </ul>
@@ -1940,7 +1717,7 @@
               <form method='post' action='https://blogtrottr.com'>
               <div class="form-group">
               <input type='email' class="form-control" name='btr_email' placeholder="Enter email"/><br />
-              <input type='hidden' name='btr_url' value='http://localhost:1313/index.xml' />
+              <input type='hidden' name='btr_url' value='http://localhost:1313//index.xml' />
               <input type='hidden' name='schedule_type' value='1' />
               <small id="emailHelp" class="form-text text-muted">By entering your email address, you agree to receive the newsletter of this website.</small>
               <button type="submit" class="btn btn-info"> Submit </button>
@@ -1957,7 +1734,7 @@
     <div class="container">
       <div class="row text-left">
         <div class="col-md-4">
-          <a id="theme" href="https://github.com/hossainemruz/toha" target="_blank" rel="noopener">
+          <a id="theme" href="https://github.com/hugo-toha/toha" target="_blank" rel="noopener">
             <img src="/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_3.png" alt="Toha Theme Logo">
             Toha
           </a>
@@ -1978,26 +1755,8 @@
   </footer>
 
 
-    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
-<script type="text/javascript" src="/js/popper.min.js"></script>
-<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script src="/application.26067c1a08a3256b67476c1cce785b334ed66c65f5bd7e688ac67fbbe311f3a2.js" integrity="sha256-JgZ8GgijJWtnR2wcznhbM07WbGX1vX5oisZ/u&#43;MR86I=" defer></script>
 
-<script type="text/javascript" src="/js/navbar.js"></script>
-<script type="text/javascript" src="/js/plyr.js"></script>
-<script type="text/javascript" src="/js/main.js"></script>
-
-
-
-<script type="text/javascript" src="/js/darkreader.js"></script>
-<script type="text/javascript" src="/js/darkmode-darkreader.js"></script>
-
-
-
-    
-    <script src="/js/itype.min.js"></script>
-    <script src="/js/github-button.js"></script>
-    <script src="/js/home.js"></script>
-    <script src="/js/jquery.filterizr.min.js"></script>
 
     
 </body>
