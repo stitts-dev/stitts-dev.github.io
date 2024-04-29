@@ -40,11 +40,11 @@ socialLinks:
 badges:
 - type: soft-skill-indicator
   name: Leadership
-  percentage: 75
+  percentage: 80
   color: blue
 - type: soft-skill-indicator
   name: Team Work
-  percentage: 75
+  percentage: 90
   color: yellow
 - type: soft-skill-indicator
   name: Communication
@@ -56,7 +56,7 @@ badges:
   color: green
 - type: soft-skill-indicator
   name: Fast Learner
-  percentage: 70
+  percentage: 75
   color: sky
 - type: soft-skill-indicator
   name: Problem Solving
