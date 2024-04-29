@@ -16,16 +16,16 @@ experiences:
     location: Pittsburgh, PA - remote
     overview: Ensure smooth development process working hand in hand with developers.
   positions:
-      - designation: Full-stack Developer
+      - designation: Software Developer
         start: Nov 2021
         end: Present
         responsibilities:
-          - Collaborated with UX/UI designers to enhance and implement responsive, user-friendly interfaces.
-          - Designed, developed, and maintained critical business applications using Angular, employing industry best practices and design patterns.
-          - Wrote clean, modular, and testable code using TypeScript, HTML, and CSS.
-          - Integrated and maintained RESTful APIs and services, contributing to efficient front-end to back-end communication.
-          - Collaborated with cross-functional teams to solve complex problems and deliver products to customers on time.
-          - Optimized application performance and scalability using advanced techniques like lazy loading, caching, and code-splitting.
+          - Enhanced UI/UX with UX/UI team collaboration.
+          - Developed Angular and Spring Boot applications.
+          - Ensured code quality with TypeScript, HTML, CSS.
+          - Managed RESTful API integration and maintenance.
+          - Led cross-functional teams for problem-solving.
+          - Applied performance optimization techniques.
 
 
 - company:
@@ -35,31 +35,16 @@ experiences:
     # company overview
     overview: Create tools and services which allow other teams to access, reserve, and manipulate test data.
   positions:
-  - designation: Software Developer
-    start: Mar 2019
+  - designation: Lead Software Developer
+    start: Mar 2017
     end: Nov 2021
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Developed and maintained robust software tools using Java and the Spring Ecosystem, enhancing productivity across development and testing teams.
-    - Led the design and implementation of new features, significantly improving development efficiency and reducing time-to-market.
-    - Actively participated in Agile ceremonies, including sprint planning and review sessions, ensuring timely delivery of software products.
-    - Utilized Jenkins to automate build and deployment processes, enhancing continuous integration and continuous delivery efforts.
-
-
-- company:
-    name: SysLibrary
-    location: Pittsburgh, PA - remote
-    overview: Intro to the tech industry learned a lot and contributed to a large project in the Spring Ecosystem
-  positions:
-  - designation: Software Development Intern
-    start: Dec 2017
-    end: May 2018
-    responsibilities:
-    - Participated in the development of a large-scale project leveraging the Spring Framework, focusing on building resilient and efficient backend services.
-    -  Collaborated closely with a team to design and implement feature enhancements, leading to a notable increase in application performance.
-    -  Employed Java and Spring best practices to ensure code quality and maintainability.
-    -  Utilized Thymeleaf for dynamic web views, enhancing the user experience by creating responsive and interactive web pages.
-    -  Engaged in behavior-driven development (BDD) with Cucumber to align development work with business objectives and ensure all stakeholders' needs were met.
-    -  Actively contributed to code reviews, offering insightful improvements and advocating for coding standards.
+      - Managed Java microservices for resource optimization.
+      - Improved productivity with Java Spring system.
+      - Implemented new features, boosting efficiency.
+      - Guided Agile process for on-time software delivery.
+      - Automated CI/CD with Jenkins.
+      - Fortified security with Spring enhancements.

@@ -12,9 +12,9 @@ section:
 degrees:
 - name: Engaging in an intensive, hands-on training program focused on developing skills in Java and modern web technologies, including HTML, CSS, JavaScript, Angular, and React.
   icon: fa-university
-  timeframe: 2017-2018
+  timeframe: 2016-2017
   institution:
-    name: CYDEO Full-Stack Boot camp
+    name: CYDEO Full-stack Java Developer Boot camp
 
 
 #  publications: #(optional)
