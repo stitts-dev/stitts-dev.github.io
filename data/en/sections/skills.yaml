@@ -11,25 +11,41 @@ hideTitle: true
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
+
   # Coding Languages
   - name: Java
     logo: /images/sections/skills/java.png
     summary: "Proficient in Java programming, adhering to best practices for clean, efficient, and concise code. Experienced in problem solving and creating Automation Testing Frameworks as well as utility packages."
     url: "https://www.java.com/en/"
-  - name: JavaScript
-    logo: /images/sections/skills/javascript.png
-    summary: "Expertise in JavaScript, developing interactive and efficient web applications with modern JavaScript frameworks and libraries."
-    url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+  - name: Spring Ecosystems
+    logo: /images/sections/skills/spring-boot-icon.png
+    summary: "Strong expertise in Spring Frameworks, capable of developing full-stack applications that leverage Spring for rapid deployment and scalability."
+    url: "https://spring.io/"
+
+  - name: Git
+    logo: /images/sections/skills/git.png
+    summary: ""
+    url: "https://git-scm.com/"
+  - name: Docker
+    logo: /images/sections/skills/docker.svg
+    summary: ""
+    url: "https://www.docker.com/"
+  - name: Linux
+    logo: /images/sections/skills/linux.png
+    summary: ""
+    url: "https://www.linx.com/"
+
+
+  - name: CI/CD
+    logo: /images/sections/skills/jenkins-icon.png
+    summary: "Skilled in creating Jenkins jobs for automatic test suite executions like Regression and Smoke tests upon code commits, enabling automated deployments."
+    url: "https://www.jenkins.io/"
   - name: SQL
     logo: /images/sections/skills/sql.png
     summary: "Strong foundation in SQL, capable of writing complex queries and automating database interactions using JDBC."
     url: "https://www.mysql.com/"
 
   # Frameworks and Libraries
-  - name: Spring Ecosystems
-    logo: /images/sections/skills/spring-boot-icon.png
-    summary: "Strong expertise in Spring Frameworks, capable of developing full-stack applications that leverage Spring for rapid deployment and scalability."
-    url: "https://spring.io/"
   - name: Angular
     logo: /images/sections/skills/angular.png
     summary: "Skilled in Angular for building dynamic, high-performance web applications, utilizing best practices for modern web development."
@@ -40,25 +56,15 @@ skills:
     url: "https://getbootstrap.com/"
 
   # Testing and Version Control
-  - name: Git
-    logo: /images/sections/skills/git.png
-    summary: "Experienced in Git-based version control, applying industry best practices for efficient project management and team collaboration."
-    url: "https://git-scm.com/"
   - name: Cucumber / Gherkin
     logo: /images/sections/skills/cucumber.png
     summary: "In-depth knowledge of BDD frameworks, proficient in writing features, feature runners, and step definitions in Cucumber, integrating tools like Selenium, JDBC, and REST Assured."
     url: "https://cucumber.io/"
-
   # CI/CD and Project Management
-  - name: CI/CD
-    logo: /images/sections/skills/jenkins-icon.png
-    summary: "Skilled in creating Jenkins jobs for automatic test suite executions like Regression and Smoke tests upon code commits, enabling automated deployments."
-    url: "https://www.jenkins.io/"
   - name: Jira
     logo: /images/sections/skills/jira.png
     summary: "Proficient in using Jira for detailed user story documentation, bug tracking and reporting, and integrating Jira Xray with karate frameworks."
     url: "https://www.atlassian.com/software/jira"
-
   # Cloud Platforms
   - name: AWS
     logo: /images/sections/skills/aws.png
