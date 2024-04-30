@@ -24,17 +24,16 @@ skills:
 
   - name: Git
     logo: /images/sections/skills/git.png
-    summary: ""
+    summary: "Proficiency in Git, I comfortably perform version control operations in collaborative projects, including personal cloud network development."
     url: "https://git-scm.com/"
   - name: Docker
     logo: /images/sections/skills/docker.svg
-    summary: ""
+    summary: "My skills in Docker, enabling me to create, deploy, and manage containers effectively."
     url: "https://www.docker.com/"
   - name: Linux
     logo: /images/sections/skills/linux.png
-    summary: ""
-    url: "https://www.linx.com/"
-
+    summary: "Linux skills allow me to confidently manage containers, work with personal cloud networks, and facilitate efficient CI/CD processes."
+    url: "https://www.linux.com/"
 
   - name: CI/CD
     logo: /images/sections/skills/jenkins-icon.png
