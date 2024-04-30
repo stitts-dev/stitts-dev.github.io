@@ -1,6 +1,5 @@
 name: HTML Proofer
 
-# run when a event happen in a PR
 on: [pull_request]
 
 jobs:
