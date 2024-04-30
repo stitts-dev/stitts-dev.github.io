@@ -5,27 +5,19 @@ jobs:
   score-check:
     runs-on: ubuntu-latest
     steps:
-    # Wait for the preview deployed by Netlify
-    - name: Wait for preview deployed
-      uses: jakepartusch/wait-for-netlify-action@v1.3
-      id: preview
-      with:
-        site_name: "toha"
-        max_timeout: 300
 
+    - uses: actions/checkout@master
+    - run: npm install
     # Run Lighthouse check
     - name: Run Lighthouse
-      uses: foo-software/lighthouse-check-action@v9.0.0
+      uses: foo-software/lighthouse-check-action@master
       id: lighthouseCheck
       with:
-        accessToken: ${{ secrets.LIGHTHOUSE_TOKEN }}
-        emulatedFormFactor: 'all'
-        prCommentEnabled: true
-        urls: "${{ steps.preview.outputs.url }},${{ steps.preview.outputs.url }}/posts/,${{ steps.preview.outputs.url }}/posts/markdown-sample/"
+        urls: 'https://www.foo.software,https://www.foo.software/contact'
 
     # Verify Lighthouse scores
-    - name: Verify Lighthouse  scores
-      uses: foo-software/lighthouse-check-status-action@v2.0.1
+    - name: Handle Lighthouse Check results
+      uses: ./
       with:
         lighthouseCheckResults: ${{ steps.lighthouseCheck.outputs.lighthouseCheckResults }}
         minAccessibilityScore: "95"
