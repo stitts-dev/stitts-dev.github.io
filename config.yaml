@@ -76,7 +76,8 @@ params:
       services:
         # Google Analytics
         google:
-          id: 339160497  
+          id: 339160497
+          
     # Enable blog posts
     blog:
       enable: true
