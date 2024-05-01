@@ -2,6 +2,8 @@ baseURL: https://jadenstittsworth.com
 
 languageCode: en-us
 title: "Stitts.Dev"
+# Enable Google Analytics
+googleAnalytics: G-5GE9QY8QQ2
 
 module:
   imports:
