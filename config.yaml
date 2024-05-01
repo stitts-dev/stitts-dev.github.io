@@ -71,7 +71,12 @@ params:
     # Enable portfolio section
     portfolio:
       enable: true
-
+    analytics:
+      enable: true
+      services:
+        # Google Analytics
+        google:
+          id: 339160497  
     # Enable blog posts
     blog:
       enable: true
