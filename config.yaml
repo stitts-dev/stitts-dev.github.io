@@ -77,7 +77,7 @@ params:
       enable: true
       services:
         google:
-          id: UA-120740027-1
+          id: "339160497"
           
     # Enable blog posts
     blog:
