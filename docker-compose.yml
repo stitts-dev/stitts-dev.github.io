@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "6969:8080"
+    volumes:
+      - .:/src
+    working_dir: /src
+    command: >
+      hugo server --bind 0.0.0.0 --baseURL=http://localhost:6969 --appendPort=false
