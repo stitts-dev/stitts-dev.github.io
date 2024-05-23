@@ -26,4 +26,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: user/${{ secrets.CONTAINER_TAG }}:latest
+          tags: ${{ secrets.DOCKER_USERNAME  }}/${{ secrets.CONTAINER_TAG }}:latest
