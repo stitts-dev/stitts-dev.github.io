@@ -14,16 +14,10 @@ COPY . .
 RUN hugo
 
 # Stage 2: Serve stage
-FROM nginx:1.25-alpine
-
-# Set workdir to the NGINX default dir
-WORKDIR /usr/share/nginx/html
+FROM nginx:alpine
 
 # Copy the generated HTML files from the build stage
-COPY --from=build /opt/HugoApp/public .
+COPY --from=build /opt/HugoApp/public /usr/share/nginx/html
 
-
-EXPOSE 6969
-
-# Run nginx in the foreground
-CMD ["nginx", "-g", "daemon off;"]
+# Expose the port 80 (nginx default)
+EXPOSE 80
