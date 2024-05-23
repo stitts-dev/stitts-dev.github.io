@@ -1,25 +1,29 @@
-# Stage 1
+# Stage 1: Build stage
 FROM alpine:latest AS build
 
-# Install Go, Hugo, and Git.
-RUN apk add --update go hugo git  # Added git here
+# Install Go, Hugo, and Git
+RUN apk add --update go hugo git
 
+# Set the working directory
 WORKDIR /opt/HugoApp
 
-# Copy Hugo config into the container Workdir.
+# Copy Hugo project files into the container
 COPY . .
 
-# Run Hugo in the Workdir to generate HTML.
+# Build the Hugo site to generate HTML
 RUN hugo
 
-# Stage 2
+# Stage 2: Serve stage
 FROM nginx:1.25-alpine
 
-# Set workdir to the NGINX default dir.
+# Set workdir to the NGINX default dir
 WORKDIR /usr/share/nginx/html
 
-# Copy HTML from previous build into the Workdir.
+# Copy the generated HTML files from the build stage
 COPY --from=build /opt/HugoApp/public .
 
 # Expose port 80
-EXPOSE 80/tcp
+EXPOSE 80
+
+# Run nginx in the foreground
+CMD ["nginx", "-g", "daemon off;"]
