@@ -22,8 +22,8 @@ WORKDIR /usr/share/nginx/html
 # Copy the generated HTML files from the build stage
 COPY --from=build /opt/HugoApp/public .
 
-# Expose port 80
-EXPOSE 80
+
+EXPOSE 6969
 
 # Run nginx in the foreground
 CMD ["nginx", "-g", "daemon off;"]
