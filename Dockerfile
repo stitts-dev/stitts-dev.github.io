@@ -10,9 +10,6 @@ RUN wget https://github.com/gohugoio/hugo/releases/download/v0.115.0/hugo_extend
     && mv hugo /usr/local/bin/ \
     && rm hugo_extended_0.115.0_Linux-64bit.tar.gz
 
-# Verify the Hugo binary is installed correctly
-RUN /usr/local/bin/hugo version
-
 # Set the working directory
 WORKDIR /src
 
