@@ -9,18 +9,3 @@ COPY . .
 
 # Build the Hugo site
 RUN hugo
-
-# Stage 2: Serve the built Hugo site with Caddy
-FROM caddy:alpine
-
-# Copy the built site from the previous stage
-COPY --from=builder /app/public /srv
-
-# Copy Caddyfile configuration
-COPY Caddyfile /etc/caddy/Caddyfile
-
-# Expose port 80
-EXPOSE 80
-
-# Start the Caddy server
-CMD ["caddy", "run", "--config", "/etc/caddy/Caddyfile", "--adapter", "caddyfile"]
