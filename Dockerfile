@@ -14,7 +14,7 @@ RUN hugo -D
 FROM nginx:alpine
 
 # Copy the built site from the previous stage
-COPY --from=builder /app/public /usr/share/nginx/html
+COPY --from=builder /app/public /usr/share/nginx/site
 
 # Copy custom nginx configuration
 COPY nginx.conf /etc/nginx/conf.d/default.conf
