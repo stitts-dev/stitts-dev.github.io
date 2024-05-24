@@ -19,6 +19,9 @@ COPY --from=builder /app/public /usr/share/nginx/site
 # Copy custom nginx configuration
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
+# Set permissions
+RUN chmod -R 755 /usr/share/nginx/site
+
 # Expose port 80
 EXPOSE 80
 
