@@ -67,7 +67,7 @@ params:
     favicon: /images/site/favicon_Dev.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/Stitts5401/stitts.github.io
+  gitRepo: https://github.com/stitts-dev/stitts.github.io
 
   features:
     # Enable portfolio section

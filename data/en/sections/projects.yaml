@@ -26,7 +26,7 @@ projects:
   logo: /images/sections/projects/JMTLogo.svg
   role: Full-stack Developer
   timeline: "Oct 2023 - Present"
-  repo: https://github.com/Stitts5401/JMT-Services
+  repo: https://github.com/stitts-dev/JMT-Services
   summary: "This is a concept project but will be deployed to a production environment. The idea is to solve issues like Angies list. The current tech-stack is Spring-Webflux, Thymleaf, Redis, Spring-sessions, mysql, R2DBC, Spring-security. It's currently a monolith and will be quickly refactored to microservice pattern."
   tags: ["All","Business","Training"]
 
@@ -34,7 +34,7 @@ projects:
   logo: /images/sections/projects/no-code.svg
   role: Full-stack Developer
   timeline: "Oct 2023 - Present"
-  repo: https://github.com/Stitts5401/click-to-deploy-keycloak
+  repo: https://github.com/stitts-dev/click-to-deploy-keycloak
   summary: "This is a simple example of ways to deploy keycloak. It's what I use for JMT Services authentication and it can be replicated for others to you."
   tags: ["All","Business","Training"]
 
@@ -42,7 +42,7 @@ projects:
   logo: /images/sections/projects/JMTLogo.png
   role: Developer
   timeline: "April 2021 - Ongoing"
-  repo: https://github.com/Stitts5401/stitts5401.github.io
+  repo: https://github.com/stitts-dev/stitts-dev.github.io
   summary: "Personal Portfolio using Hugo-toha theme. GitHub Actions is used for CI/CD. Created to help display eagerness to learn new unfamiliar languages and frameworks as well as my personality!"
   tags: ["All","Academic", "Professionalism"]
 
@@ -50,7 +50,7 @@ projects:
   logo: /images/sections/projects/no-code.png
   role: Back-End Developer
   timeline: "May 2021 - May 2021"
-  repo: https://github.com/Stitts5401/demo # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  repo: https://github.com/stitts-dev/demo # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary:  "This project focuses on creating a back-end application that will register users into a database using Spring Boot Data Jpa, starter email, starter security, starter web, Spring security, Spring test, PostgresSql, and Lombok."
   tags: ["All","Academic"]
@@ -58,7 +58,7 @@ projects:
 #  logo: /images/sections/projects/hugosite.png
 #  role: Developer
 #  timeline: "April 2021 - Present"
-#  repo: https://github.com/Stitts5401/Hugo-Site
+#  repo: https://github.com/stitts-dev/Hugo-Site
 #  summary: Hugo + Toha Theme using gitHub Actions workflow for automated deployments for Personal Resume Website.
 #  tags: ["All","Academic", "Hobby"]
 
@@ -66,7 +66,7 @@ projects:
   logo: /images/sections/projects/no-code.png
   role: Front-End Developer
   timeline: "may 2021 - Present"
-  repo: https://github.com/Stitts5401/Tic-Tac-Toe_React.Js_project # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  repo: https://github.com/stitts-dev/Tic-Tac-Toe_React.Js_project # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary:  "First dive into react.Js try it out! https://portfolio.stitts.dev/Tic-Tac-Toe_React.Js_project/"
   tags: ["All","Academic"]

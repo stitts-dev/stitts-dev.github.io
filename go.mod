@@ -1,4 +1,4 @@
-module github.com/Stitts5401/Stitts5401.github.io
+module github.com/stitts-dev/Stitts5401.github.io
 
 go 1.22
 
