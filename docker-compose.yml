@@ -1,0 +1,10 @@
+version: "4.1"
+
+
+services:
+  portfolio:
+    image: docker.io/stitts5401/hugo-portfolio:latest
+    restart: unless-stopped
+    container_name: portfolio
+    ports:
+      - "6969:80"
