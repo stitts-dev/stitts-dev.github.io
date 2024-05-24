@@ -8,7 +8,9 @@ RUN apk add --no-cache git nodejs npm go wget
 RUN wget https://github.com/gohugoio/hugo/releases/download/v0.115.0/hugo_extended_0.115.0_Linux-64bit.tar.gz \
     && tar -xzvf hugo_extended_0.115.0_Linux-64bit.tar.gz \
     && mv hugo /usr/local/bin/hugo \
-    && rm hugo_extended_0.115.0_Linux-64bit.tar.gz
+    && rm hugo_extended_0.115.0_Linux-64bit.tar.gz \
+    && chmod +x /usr/local/bin/hugo \
+    && ls -l /usr/local/bin/hugo
 
 # Set the working directory
 WORKDIR /src
