@@ -10,7 +10,9 @@ RUN wget https://github.com/gohugoio/hugo/releases/download/v0.115.0/hugo_extend
     && mv hugo /usr/local/bin/hugo \
     && rm hugo_extended_0.115.0_Linux-64bit.tar.gz \
     && chmod +x /usr/local/bin/hugo \
-    && ls -l /usr/local/bin/hugo
+    && echo "Hugo binary moved to /usr/local/bin/" \
+    && ls -l /usr/local/bin/hugo \
+    && /usr/local/bin/hugo version
 
 # Set the working directory
 WORKDIR /src
