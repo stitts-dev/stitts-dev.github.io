@@ -9,10 +9,10 @@ RUN hugo -D
 # Stage 2: Serve the built Hugo site with nginx
 FROM nginx:alpine
 
-COPY --from=builder /app/public /usr/share/nginx/html
+COPY --from=builder /app/public /usr/share/nginx/site
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-RUN chmod -R 755 /usr/share/nginx/html
+RUN chmod -R 755 /usr/share/nginx/site
 
 EXPOSE 80
 
