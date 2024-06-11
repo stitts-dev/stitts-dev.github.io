@@ -1,10 +1,10 @@
-version: "4.1"
-
+version: '3.8'
 
 services:
-  portfolio:
-    image: docker.io/stitts-dev/hugo-portfolio:latest
-    restart: unless-stopped
-    container_name: portfolio
+  hugo-site:
+    build:
+      context: .
+      dockerfile: Dockerfile
     ports:
-      - "6969"
+      - "6969:80"
+    restart: unless-stopped
