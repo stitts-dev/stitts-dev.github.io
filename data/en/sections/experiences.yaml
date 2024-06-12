@@ -14,18 +14,22 @@ experiences:
     name: Talogy Tech
     url: "https://www.talogy.com/en/"
     location: Pittsburgh, PA - remote
-    overview: Ensure smooth development process working hand in hand with developers.
+    overview: At Talogy Tech, I develop and maintain critical business applications using Angular and Spring Boot, focusing on creating scalable and reliable systems. My contributions included optimizing front-end performance, streamlining back-end processes, and implementing robust database interactions, leading to enhanced application performance and user satisfaction.
   positions:
       - designation: Software Developer
         start: Nov 2021
         end: Present
         responsibilities:
-          - Enhanced UI/UX with UX/UI team collaboration.
-          - Developed Angular and Spring Boot applications.
-          - Ensured code quality with TypeScript, HTML, CSS.
-          - Managed RESTful API integration and maintenance.
-          - Led cross-functional teams for problem-solving.
-          - Applied performance optimization techniques.
+          - Designed, developed, and maintained critical business applications using Angular and Spring Boot, adhering to industry best practices and design patterns.
+          - Developed clean, modular, and testable UI components with TypeScript, HTML, and CSS, ensuring system reliability and scalability.
+          - Integrated and maintained RESTful APIs to facilitate efficient communication between the front end and back end.
+          - Optimized user interfaces for performance and scalability with techniques like lazy loading, caching, and code-splitting.
+          - Streamlined Spring Boot back-end processes, significantly reducing server response times.
+          - Utilized Java Persistence API (JPA) for robust database interactions, ensuring data integrity and performance optimization in transaction management.
+          - Engineered backend solutions with Java, integrating with Angular through RESTful APIs, facilitating seamless data exchange and dynamic content management.
+          - Implemented unit and integration tests using JUnit, ensuring high code quality and robust application performance.
+          - Collaborated with UX/UI designers to create user-friendly interfaces, enhancing user satisfaction and engagement.
+          - Led the transition to a microservices architecture, improving system scalability and fault tolerance.
 
 
 - company:
@@ -33,7 +37,7 @@ experiences:
     url: "https://www.pnc.com/en/about-pnc.html?lnksrc=topnav"
     location: Pittsburgh, PA - remote
     # company overview
-    overview: Create tools and services which allow other teams to access, reserve, and manipulate test data.
+    overview: As a Lead Software Developer at PNC Bank, I spearheaded the development and optimization of Java-based microservices, improving system resilience and efficiency. My role involved leading the design and implementation of key features, mentoring junior developers, and enhancing security protocols, significantly boosting team productivity and software quality.
   positions:
   - designation: Lead Software Developer
     start: Mar 2017
@@ -42,9 +46,13 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-      - Managed Java microservices for resource optimization.
-      - Improved productivity with Java Spring system.
-      - Implemented new features, boosting efficiency.
-      - Guided Agile process for on-time software delivery.
-      - Automated CI/CD with Jenkins.
-      - Fortified security with Spring enhancements.
+      - Orchestrated Java-based microservices, optimizing resource allocation and system resilience.
+      - Developed and maintained a robust test data management system using Java and the Spring Ecosystem, improving productivity across development and testing teams.
+      - Led the design and implementation of new features for the test data management system, enhancing development efficiency and reducing time-to-market.
+      - Actively participated in Agile ceremonies, including sprint planning and review sessions, ensuring timely delivery of software products.
+      - Utilized Jenkins to automate build and deployment processes, enhancing continuous integration and continuous delivery efforts.
+      - Engineered Jenkins pipelines, achieving a 20% cutback in deployment cycles and enhancing team agility.
+      - Enhanced Spring security, significantly strengthening the integrity and protection of sensitive test data.
+      - Mentored junior developers, providing guidance on best practices, code reviews, and technical problem-solving.
+      - Coordinated with cross-functional teams to gather requirements and ensure alignment on project goals and timelines.
+      - Led the migration of legacy systems to modern architectures, improving system performance and maintainability.

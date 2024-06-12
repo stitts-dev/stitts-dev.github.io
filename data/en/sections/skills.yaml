@@ -12,24 +12,29 @@ hideTitle: true
 # Give a summary of you each skill in the summary section.
 skills:
 
-  # Coding Languages
-  - name: Java
-    logo: /images/sections/skills/java.png
-    summary: "Proficient in Java programming, adhering to best practices for clean, efficient, and concise code. Experienced in problem solving and creating Automation Testing Frameworks as well as utility packages."
-    url: "https://www.java.com/en/"
   - name: Spring Ecosystems
     logo: /images/sections/skills/spring-boot-icon.png
     summary: "Strong expertise in Spring Frameworks, capable of developing full-stack applications that leverage Spring for rapid deployment and scalability."
     url: "https://spring.io/"
 
-  - name: Git
-    logo: /images/sections/skills/git.png
-    summary: "Proficiency in Git, I comfortably perform version control operations in collaborative projects, including personal cloud network development."
-    url: "https://git-scm.com/"
+  - name: Angular
+    logo: /images/sections/skills/angular.png
+    summary: "Skilled in Angular for building dynamic, high-performance web applications, utilizing best practices for modern web development."
+    url: "https://angular.io/"
+
   - name: Docker
     logo: /images/sections/skills/docker.svg
     summary: "My skills in Docker, enabling me to create, deploy, and manage containers effectively."
     url: "https://www.docker.com/"
+  # Coding Languages
+  - name: Java
+    logo: /images/sections/skills/java.png
+    summary: "Proficient in Java programming, adhering to best practices for clean, efficient, and concise code. Experienced in problem solving and creating Automation Testing Frameworks as well as utility packages."
+    url: "https://www.java.com/en/"
+  - name: Git
+    logo: /images/sections/skills/git.png
+    summary: "Proficiency in Git, I comfortably perform version control operations in collaborative projects, including personal cloud network development."
+    url: "https://git-scm.com/"
   - name: Linux
     logo: /images/sections/skills/linux.png
     summary: "Linux skills allow me to confidently manage containers, work with personal cloud networks, and facilitate efficient CI/CD processes."
@@ -45,10 +50,6 @@ skills:
     url: "https://www.mysql.com/"
 
   # Frameworks and Libraries
-  - name: Angular
-    logo: /images/sections/skills/angular.png
-    summary: "Skilled in Angular for building dynamic, high-performance web applications, utilizing best practices for modern web development."
-    url: "https://angular.io/"
   - name: Bootstrap
     logo: /images/sections/skills/bootstrap.png
     summary: "Experienced in using Bootstrap for responsive web design, efficiently creating visually appealing and mobile-friendly websites."

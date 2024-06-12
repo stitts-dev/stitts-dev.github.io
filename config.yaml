@@ -80,8 +80,6 @@ params:
           id: "339160497"
           
     # Enable blog posts
-    blog:
-      enable: true
 
     # Enable Table of contents in reading page
     toc:
